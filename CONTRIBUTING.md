@@ -25,7 +25,7 @@ new bank must:
 1. **File location** — add the bank at
    `questions/v{next}/<jurisdiction-slug>.json`. The slug should be
    lower-kebab-case (e.g. `england-wales.json`, `korea.json`,
-   `eu-general.json`). Do not edit a tagged version directory —
+   `eu.json`). Do not edit a tagged version directory —
    immutability of tagged banks is a load-bearing property.
 
 2. **Schema** — the bank must pass:
@@ -180,7 +180,7 @@ When in doubt, the revision is tested for cross-question contamination: if
 it improves the target question by more than 5 points but degrades any
 other question by more than 5 points, it is rejected. Prompt revisions
 that materially affect a flagged or borderline question are documented in
-docs/_archive/.
+[`docs/archive/`](docs/archive/).
 
 ---
 

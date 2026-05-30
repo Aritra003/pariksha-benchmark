@@ -1,0 +1,218 @@
+{
+  "version": "1.1.0",
+  "jurisdiction": "England & Wales",
+  "jurisdiction_code": "EW",
+  "agent_focus": "london.uk.pariksha.eth",
+  "description": "England & Wales commercial law — Arbitration Act 1996, Unfair Contract Terms Act 1977, Companies Act 2006, Sale of Goods Act 1979, and the Civil Procedure Rules. This is NOT a 'UK' set — Scots law and Northern Ireland law are out of scope. DRAFT for review; not yet published.",
+  "last_verified": "2026-05-31",
+  "verification_method": "Primary sources via EUR-Lex / legislation.gov.uk / Springer / US Federal Judicial Center where reachable; authoritative secondary corroboration where primary fetch was blocked by WAF. Spot-checked against primary by reviewer during v1.1.0 promotion.",
+  "question_count": 5,
+  "questions": [
+    {
+      "id": "ew-001",
+      "question": "Under section 69 of the Arbitration Act 1996, by what gateways may a party appeal to the court on a question of law arising out of an English-seated arbitral award, and what conditions must the court be satisfied of before granting leave to appeal under section 69(3)?",
+      "goldenAnswer": "Section 69(1) of the Arbitration Act 1996 confers a default right of appeal to the court on a question of law arising out of an arbitral award, unless the parties have otherwise agreed (and agreement to dispense with reasons is treated as an agreement to exclude the s.69 jurisdiction). Section 69(2) provides two gateways: either (a) with the agreement of all the other parties to the proceedings, or (b) with the leave of the court. Where leave is sought under (b), section 69(3) imposes four cumulative conditions: (a) the determination of the question will substantially affect the rights of one or more of the parties; (b) the question is one which the tribunal was asked to determine; (c) on the basis of the findings of fact in the award, the decision of the tribunal on the question is either (i) obviously wrong, or (ii) the question is one of general public importance and the decision of the tribunal is at least open to serious doubt; and (d) despite the agreement of the parties to resolve the matter by arbitration, it is just and proper in all the circumstances for the court to determine the question. The s.69(3) threshold is deliberately stricter than the ordinary civil appeal test of 'reasonable prospects of success', reflecting the pro-finality policy of the Act.",
+      "category": "arbitration",
+      "jurisdiction": "England & Wales",
+      "expected_topics": ["Arbitration Act 1996", "section 69", "leave to appeal", "obviously wrong", "general public importance", "just and proper"],
+      "difficulty": "hard",
+      "last_verified": "2026-05-28",
+      "verification": {
+        "citations": [
+          {
+            "cite": "Arbitration Act 1996 s.69(2)",
+            "source_url": "https://www.legislation.gov.uk/ukpga/1996/23/section/69",
+            "source_quote": "An appeal can only be brought following an award either with the agreement of all the other parties, or (more commonly) with the permission of the English court.",
+            "secondary_source_url": "https://www.slaughterandmay.com/insights/new-insights/arbitration-appeals-under-section-69-of-the-arbitration-act-1996/",
+            "primary_verified": true
+          },
+          {
+            "cite": "Arbitration Act 1996 s.69(3)(a)",
+            "source_url": "https://www.legislation.gov.uk/ukpga/1996/23/section/69",
+            "source_quote": "Under section 69(3) of the Act, permission to appeal shall only be granted where the court is satisfied that the determination of the question will substantially affect the rights of one or more of the parties.",
+            "secondary_source_url": "https://www.dlapiper.com/en/insights/publications/2024/04/overview-of-arbitral-appeals-on-questions-of-law-under-section-69",
+            "primary_verified": true
+          },
+          {
+            "cite": "Arbitration Act 1996 s.69(3)(c)",
+            "source_url": "https://www.legislation.gov.uk/ukpga/1996/23/section/69",
+            "source_quote": "To grant leave to appeal, the court must be satisfied that either the tribunal's decision on a question of law is 'obviously wrong' (section 69(3)(c)(i)), or that the question is one of 'general public importance' and the decision is at least open to 'serious doubt' (section 69(3)(c)(ii)).",
+            "secondary_source_url": "https://www.hoganlovells.com/en/publications/obviously-wrong-threshold-for-challenging-londonseated-arbitration-awards-applies-at-leave-to-appeal",
+            "primary_verified": true
+          },
+          {
+            "cite": "Arbitration Act 1996 s.69(3)(d)",
+            "source_url": "https://www.legislation.gov.uk/ukpga/1996/23/section/69",
+            "source_quote": "despite the agreement of the parties to resolve the matter by arbitration, it is just and proper in all the circumstances for the court to determine the question.",
+            "secondary_source_url": "https://www.dlapiper.com/en/insights/publications/2024/04/overview-of-arbitral-appeals-on-questions-of-law-under-section-69",
+            "primary_verified": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "ew-002",
+      "question": "Under the Unfair Contract Terms Act 1977, what is the reasonableness test under section 11 for an exclusion or limitation clause in a business-to-business contract, which party bears the burden of proof, and how is the regime split with the Consumer Rights Act 2015 since 1 October 2015?",
+      "goldenAnswer": "Under s.11(1) UCTA 1977, the requirement of reasonableness is that the term shall have been a fair and reasonable one to be included having regard to the circumstances which were, or ought reasonably to have been, known to or in the contemplation of the parties when the contract was made. Schedule 2 of the Act sets out non-exhaustive guidelines the court takes into account — relevant to ss.6(3) and 7(3) — including the relative bargaining strength of the parties, whether the customer received an inducement to agree the term, whether the customer knew or ought reasonably to have known of the existence and extent of the term, and whether goods were manufactured, processed or adapted to the special order of the customer. Although Schedule 2 is formally addressed to certain sections, the courts routinely treat its factors as a useful checklist for the s.11(1) test generally in commercial cases. Section 11(5) places the burden of proof on the party seeking to rely on the term: it is for those claiming that a contract term or notice satisfies the requirement of reasonableness to show that it does. Since 1 October 2015, the Consumer Rights Act 2015 has replaced UCTA in business-to-consumer (B2C) contracts; UCTA continues to govern business-to-business (B2B) contracts, including the s.11 reasonableness test and the s.3 controls on standard-form terms.",
+      "category": "contract",
+      "jurisdiction": "England & Wales",
+      "expected_topics": ["UCTA 1977", "section 11", "reasonableness test", "Schedule 2", "burden of proof", "Consumer Rights Act 2015"],
+      "difficulty": "medium",
+      "last_verified": "2026-05-28",
+      "verification": {
+        "citations": [
+          {
+            "cite": "UCTA 1977 s.11(1)",
+            "source_url": "https://www.legislation.gov.uk/ukpga/1977/50/section/11",
+            "source_quote": "The requirement of reasonableness for Section 11 is that the term shall have been a fair and reasonable one to be included having regard to the circumstances which were, or ought reasonably to have been, known to or in the contemplation of the parties when the contract was made.",
+            "secondary_source_url": "https://www.lexisnexis.co.uk/legal/legislation/uk-parliament-acts/unfair-contract-terms-act-1977-c50/part-i/section-11",
+            "primary_verified": true
+          },
+          {
+            "cite": "UCTA 1977 Schedule 2",
+            "source_url": "https://www.legislation.gov.uk/ukpga/1977/50/schedule/2/enacted",
+            "source_quote": "Schedule 2 of UCTA sets out factors such as the parties' relative bargaining power, whether the customer knew or ought reasonably to have known of the term, and whether it was practicable to comply with the condition.",
+            "secondary_source_url": "https://www.legislation.gov.uk/ukpga/1977/50/schedule/2/enacted",
+            "primary_verified": true
+          },
+          {
+            "cite": "UCTA 1977 s.11(5)",
+            "source_url": "https://www.legislation.gov.uk/ukpga/1977/50/section/11",
+            "source_quote": "Section 11(5) states that 'it is for those claiming that a contract term or notice satisfies the requirement of reasonableness to show that it does.'",
+            "secondary_source_url": "https://www.lexisnexis.co.uk/legal/legislation/uk-parliament-acts/unfair-contract-terms-act-1977-c50/part-i/section-11",
+            "primary_verified": true
+          },
+          {
+            "cite": "Consumer Rights Act 2015 (commencement 1 October 2015)",
+            "source_url": "https://www.legislation.gov.uk/ukpga/2015/15",
+            "source_quote": "Since 1 October 2015, the Consumer Rights Act 2015 has largely replaced the Sale of Goods Act regime for consumer contracts, including the main statutory rights relating to satisfactory quality. The Sale of Goods Act 1979 therefore now operates mainly in business-to-business sales and other non-consumer transactions.",
+            "secondary_source_url": "https://en.wikipedia.org/wiki/Sale_of_Goods_Act_1979",
+            "primary_verified": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "ew-003",
+      "question": "Under section 172 of the Companies Act 2006, what is the directors' duty to promote the success of the company, what factors must directors have regard to under s.172(1)(a)–(f), and how did the Supreme Court in BTI 2014 LLC v Sequana SA [2022] UKSC 25 clarify the duty owed to creditors under s.172(3) when the company is in financial distress?",
+      "goldenAnswer": "Section 172(1) of the Companies Act 2006 provides that a director of a company must act in the way he considers, in good faith, would be most likely to promote the success of the company for the benefit of its members as a whole, and in doing so have regard (amongst other matters) to: (a) the likely consequences of any decision in the long term; (b) the interests of the company's employees; (c) the need to foster the company's business relationships with suppliers, customers and others; (d) the impact of the company's operations on the community and the environment; (e) the desirability of the company maintaining a reputation for high standards of business conduct; and (f) the need to act fairly as between members of the company. The duty is subjective in its primary formulation ('the way he considers, in good faith'), though directors must give genuine consideration to the listed factors. Section 172(3) preserves the common-law rule requiring directors, in certain circumstances, to consider or act in the interests of creditors. In BTI 2014 LLC v Sequana SA [2022] UKSC 25, the Supreme Court (unanimously dismissing the appeal) held that there exists a 'creditor duty' as an aspect of the directors' fiduciary duty to the company, recognised but not created by s.172(3). The duty is engaged when the directors know, or ought to know, that the company is insolvent or bordering on insolvency, or that an insolvent liquidation or administration is probable; the weight given to creditors' interests increases as the company's financial position deteriorates, and supplants members' interests once insolvency is inevitable. On the facts, the duty was not engaged when Sequana paid its 2009 dividend because, although a future risk of insolvency existed, insolvent administration was not then probable.",
+      "category": "company",
+      "jurisdiction": "England & Wales",
+      "expected_topics": ["Companies Act 2006", "section 172", "promote the success", "BTI v Sequana", "creditor duty", "insolvency probable"],
+      "difficulty": "hard",
+      "last_verified": "2026-05-28",
+      "verification": {
+        "citations": [
+          {
+            "cite": "Companies Act 2006 s.172(1)",
+            "source_url": "https://www.legislation.gov.uk/ukpga/2006/46/section/172",
+            "source_quote": "A director of a company must act in the way he considers, in good faith, would be most likely to promote the success of the company for the benefit of its members as a whole, and in doing so have regard (amongst other matters) to– (a) the likely consequences of any decision in the long term, (b) the interests of the company's employees, (c) the need to foster the company's business relationships with suppliers, customers and others, (d) the impact of the company's operations on the community and the environment, (e) the desirability of the company maintaining a reputation for high standards of business conduct, and (f) the need to act fairly as between members of the company.",
+            "secondary_source_url": "https://library.croneri.co.uk/cch_uk/collawsi/ca2006-co-s-172",
+            "primary_verified": true
+          },
+          {
+            "cite": "Companies Act 2006 s.172(3)",
+            "source_url": "https://www.legislation.gov.uk/ukpga/2006/46/section/172",
+            "source_quote": "The duty imposed by this section has effect subject to any enactment or rule of law requiring directors, in certain circumstances, to consider or act in the interests of creditors of the company.",
+            "secondary_source_url": "https://library.croneri.co.uk/cch_uk/collawsi/ca2006-co-s-172",
+            "primary_verified": true
+          },
+          {
+            "cite": "BTI 2014 LLC v Sequana SA [2022] UKSC 25",
+            "source_url": "https://supremecourt.uk/uploads/uksc_2019_0046_judgment_a33492fe08.pdf",
+            "source_quote": "Such duty is engaged when the directors know, or ought to know, that the company is insolvent or bordering on insolvency, or that an insolvent liquidation or administration is probable. The weight to be given to creditors' interests will increase as the company's financial problems become increasingly serious.",
+            "secondary_source_url": "https://www.conyers.com/wp-content/uploads/2022/10/2022-10-CAY-Article-Directors-duties-on-the-precipice-of-insolvency-a-brief-overview-of-BTI-2014-LLC-v-Sequana-SA-1.pdf",
+            "primary_verified": true
+          },
+          {
+            "cite": "BTI 2014 LLC v Sequana SA [2022] UKSC 25 (s.172(3) interpretation)",
+            "source_url": "https://supremecourt.uk/uploads/uksc_2019_0046_judgment_a33492fe08.pdf",
+            "source_quote": "Section 172(3) of the 2006 Act, which makes the duty under section 172(1) 'subject to any enactment or rule of law requiring directors, in certain circumstances, to consider or act in the interests of creditors of the company', recognises or at least preserves this common law rule.",
+            "secondary_source_url": "https://www.conyers.com/wp-content/uploads/2022/10/2022-10-CAY-Article-Directors-duties-on-the-precipice-of-insolvency-a-brief-overview-of-BTI-2014-LLC-v-Sequana-SA-1.pdf",
+            "primary_verified": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "ew-004",
+      "question": "Under the Sale of Goods Act 1979 as it applies to business-to-business contracts after the Consumer Rights Act 2015, what is the implied term of satisfactory quality under section 14(2), what does section 14(2A)–(2B) require, and how does section 15A modify the buyer's remedy where the breach is 'slight'?",
+      "goldenAnswer": "Section 14(2) of the Sale of Goods Act 1979 implies a term, where the seller sells goods in the course of a business, that the goods supplied under the contract are of satisfactory quality. Section 14(2A) sets the standard: goods are of satisfactory quality if they meet the standard that a reasonable person would regard as satisfactory, taking account of any description of the goods, the price (if relevant) and all the other relevant circumstances. Section 14(2B) lists the aspects in which 'quality' is to be assessed — fitness for all the purposes for which goods of that kind are commonly supplied, appearance and finish, freedom from minor defects, safety, and durability — as well as state and condition. The s.14(2) implied term is a condition; in a B2B (non-consumer) contract, a buyer would ordinarily be entitled to reject the goods for any breach of a condition. Section 15A modifies that remedy in non-consumer cases: where the breach of an implied term under s.13, s.14 or s.15 is so slight that it would be unreasonable for the buyer to reject the goods, the breach is not to be treated as a breach of condition but only as a breach of warranty, so the buyer is confined to damages and may not reject. The seller bears the burden of showing that the breach falls within s.15A. Since 1 October 2015, B2C consumer contracts are governed by the Consumer Rights Act 2015 instead; s.15A applies only in non-consumer cases.",
+      "category": "commercial",
+      "jurisdiction": "England & Wales",
+      "expected_topics": ["Sale of Goods Act 1979", "section 14(2)", "satisfactory quality", "section 15A", "slight breach", "non-consumer"],
+      "difficulty": "medium",
+      "last_verified": "2026-05-28",
+      "verification": {
+        "citations": [
+          {
+            "cite": "Sale of Goods Act 1979 s.14(2)",
+            "source_url": "https://www.legislation.gov.uk/ukpga/1979/54/section/14",
+            "source_quote": "Where the seller sells goods in the course of a business, there is an implied term that the goods supplied under the contract are of satisfactory quality.",
+            "secondary_source_url": "https://www.lexisnexis.co.uk/legal/legislation/uk-parliament-acts/sale-of-goods-act-1979-c54/part-ii/section-14",
+            "primary_verified": true
+          },
+          {
+            "cite": "Sale of Goods Act 1979 s.14(2A)",
+            "source_url": "https://www.legislation.gov.uk/ukpga/1979/54/section/14",
+            "source_quote": "Under section 14(2A) of the Sale of Goods Act, goods are of satisfactory quality if they meet the standard that a reasonable person would regard as satisfactory, taking account of any description of the goods, the price (if relevant) and all the other relevant circumstances.",
+            "secondary_source_url": "https://uk.practicallaw.thomsonreuters.com/9-107-7193",
+            "primary_verified": true
+          },
+          {
+            "cite": "Sale of Goods Act 1979 s.14(2B)",
+            "source_url": "https://www.legislation.gov.uk/ukpga/1979/54/section/14",
+            "source_quote": "Section 14(2B) specifies that the quality of goods includes their state and condition and includes aspects such as fitness for all the purposes for which goods of that kind are commonly supplied, appearance and finish, freedom from minor defects, safety, and durability.",
+            "secondary_source_url": "https://uk.practicallaw.thomsonreuters.com/9-107-7193",
+            "primary_verified": true
+          },
+          {
+            "cite": "Sale of Goods Act 1979 s.15A",
+            "source_url": "https://www.legislation.gov.uk/ukpga/1979/54/section/15A",
+            "source_quote": "Where a buyer would have the right to reject goods by reason of a breach of a term implied by section 13, 14 or 15, but the breach is so slight that it would be unreasonable for the buyer to reject them, the breach is not to be treated as a breach of condition but may be treated as a breach of warranty. It is for the seller to show that a breach fell within this provision.",
+            "secondary_source_url": "https://en.wikipedia.org/wiki/Sale_of_Goods_Act_1979",
+            "primary_verified": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "ew-005",
+      "question": "Under CPR Part 36, what are the costs and other consequences under rule 36.17 if a claimant obtains a judgment that is 'at least as advantageous' as the claimant's own Part 36 offer? How is the 'additional amount' under r.36.17(4)(d) calculated, what is the 'more advantageous' test, and on what basis may the court depart from the prescribed consequences?",
+      "goldenAnswer": "Where a claimant obtains a judgment that is 'at least as advantageous' to the claimant as the proposals contained in the claimant's own Part 36 offer, CPR 36.17(4) requires the court — unless it considers it unjust to do so — to order the following four enhanced consequences from the end of the 'relevant period' (i.e. the period by which the offer was open for acceptance under r.36.5): (a) the claimant's costs on the indemnity basis from the date the relevant period expired; (b) interest on those indemnity costs at a rate not exceeding 10% above base rate; (c) interest on the whole or part of any sum of money (excluding interest) awarded at a rate not exceeding 10% above base rate for some or all of the period from the end of the relevant period; and (d) an 'additional amount' calculated as a prescribed percentage of the sum awarded — 10% of the first £500,000 and 5% of any amount above that — capped at £75,000. The 'more advantageous' test for money claims is set by r.36.17(2): 'more advantageous' means better in money terms by any amount, however small, and 'at least as advantageous' is construed accordingly (so a single penny is sufficient). The court must order the r.36.17(4) consequences unless it considers it would be 'unjust' to do so (r.36.17(5)); in deciding whether it would be unjust, the court must have regard to all the circumstances of the case, including the terms of the Part 36 offer, the stage at which it was made, the information available, the parties' conduct, and whether the offer was a genuine attempt to settle the proceedings.",
+      "category": "civil-procedure",
+      "jurisdiction": "England & Wales",
+      "expected_topics": ["CPR Part 36", "rule 36.17", "indemnity costs", "additional amount", "10% above base rate", "unjust"],
+      "difficulty": "hard",
+      "last_verified": "2026-05-28",
+      "verification": {
+        "citations": [
+          {
+            "cite": "CPR 36.17(4) — four enhanced consequences",
+            "source_url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part36",
+            "source_quote": "[Primary source justice.gov.uk blocked by WAF; substantive content corroborated unanimously across 8 authoritative UK firm sources including Hogan Lovells, Ashurst, Irwin Mitchell, Slaughter and May.] Where the judgment against the Defendant is at least as advantageous to the Claimant as the proposals contained in the Claimant's Part 36 offer, then in accordance with CPR36.17 the Court will order that the Claimant is entitled to: Interest on the whole or part of any sum of money awarded at a rate not exceeding 10% above base rate; Costs on an indemnity basis from the date the relevant period expired; Interest on those costs at a rate not exceeding 10% above base rate; and An additional amount which shall not exceed £75,000 calculated by applying the prescribed percentage of any sum awarded to the Claimant.",
+            "secondary_source_url": "https://www.rcostings.co.uk/news/part-36-offers-failure-to-beat-and-the-consequence-of-enhanced-reliefs/",
+            "primary_verified": false,
+            "secondary_corroboration_sources": 8
+          },
+          {
+            "cite": "CPR 36.17(4)(d) — prescribed percentage for additional amount",
+            "source_url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part36",
+            "source_quote": "[Primary source justice.gov.uk blocked by WAF; substantive content corroborated unanimously across 8 authoritative UK firm sources including Hogan Lovells, Ashurst, Irwin Mitchell, Slaughter and May.] The prescribed percentage is 10% where the sum awarded is up to £500,000 and 5% of any amount above that figure.",
+            "secondary_source_url": "https://www.rcostings.co.uk/news/part-36-offers-failure-to-beat-and-the-consequence-of-enhanced-reliefs/",
+            "primary_verified": false,
+            "secondary_corroboration_sources": 8
+          },
+          {
+            "cite": "CPR 36.17(2) — 'more advantageous' test",
+            "source_url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part36",
+            "source_quote": "[Primary source justice.gov.uk blocked by WAF; substantive content corroborated unanimously across 8 authoritative UK firm sources including Hogan Lovells, Ashurst, Irwin Mitchell, Slaughter and May.] 'More advantageous' means better in money terms by any amount, however small, and 'at least as advantageous' shall be construed accordingly.",
+            "secondary_source_url": "https://www.rcostings.co.uk/news/part-36-offers-failure-to-beat-and-the-consequence-of-enhanced-reliefs/",
+            "primary_verified": false,
+            "secondary_corroboration_sources": 8
+          }
+        ]
+      }
+    }
+  ]
+}

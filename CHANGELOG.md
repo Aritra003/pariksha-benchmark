@@ -4,6 +4,55 @@ All notable changes to the Pariksha Benchmark are documented in this
 file. Question banks follow [Semantic Versioning](https://semver.org/);
 see the versioning policy in [README.md](README.md).
 
+## [v1.1.0] — 2026-05-31
+
+Adds three new jurisdiction banks; refines the citation verification
+posture; publishes development findings.
+
+### Question banks added (3)
+
+- `questions/v1.1.0/england-wales.json` — England & Wales commercial:
+  Arbitration Act 1996, UCTA 1977, Companies Act 2006, Sale of Goods
+  Act 1979, CPR Part 36.
+- `questions/v1.1.0/korea.json` — Republic of Korea: Commercial Act
+  (Arts 397, 398, 64), Civil Act tort (Art 750), FIPA foreign
+  investment, persuasive-precedent doctrine.
+- `questions/v1.1.0/eu.json` — European Union: GDPR (Art 6), DSA
+  (Arts 17, 34), DMA (Art 3).
+
+Total benchmark coverage moves from 25 questions across 5 jurisdictions
+(v1.0.0) to 40 questions across 8 jurisdictions.
+
+### Methodology refinement
+
+- Citations now carry an explicit `primary_verified` boolean (renaming
+  the v1.0.0 `verified` field). Where the primary host blocked
+  automated fetches, citations record a
+  `secondary_corroboration_sources` integer alongside the verbatim
+  quotation.
+- The refinement was prompted by a WebFetch hallucination caught on
+  DMA Article 3(2) during EU drafting and recovered via a raw-curl
+  re-fetch against EUR-Lex.
+- Bank-level fields: `verification_method` on all three new banks;
+  `verification_note` on `korea.json` (statute + doctrinal-commentary
+  posture).
+
+### Development findings published
+
+- [`docs/archive/eu-baseline-findings.md`](docs/archive/eu-baseline-findings.md)
+  — EU bank verification including the DMA Art 3(2) recovery.
+- [`docs/archive/seoul-kr-anchor-experiment.md`](docs/archive/seoul-kr-anchor-experiment.md)
+  — discarded Korea anchor-question experiment.
+- [`docs/archive/legacy-rescore-v1-1-findings.md`](docs/archive/legacy-rescore-v1-1-findings.md)
+  — rescoring v1.0.0 agents against v1.1.0 methodology.
+
+### Notes
+
+- v1.0.0 question files remain immutable. v1.1.0 banks live under their
+  own `questions/v1.1.0/` directory.
+- Re-verification cadence unchanged: every six months. Next review
+  **2026-11-30**.
+
 ## [v1.0.0] — 2026-05-30
 
 Initial public release.

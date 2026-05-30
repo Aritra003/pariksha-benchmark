@@ -13,8 +13,8 @@ correctly attributed*, or whether its statutory references account for *recent
 legislative changes*. We introduce Pariksha — Sanskrit for "examination" — a
 public benchmark designed to evaluate jurisdiction-specific legal AI agents
 on four criteria: legal accuracy, citation correctness, jurisdictional
-appropriateness, and reasoning quality. We release 25 expert-written questions
-across five jurisdictions (India, Singapore, UAE-DIFC, US-Delaware/federal, US-Generalist),
+appropriateness, and reasoning quality. We release 40 expert-written questions
+across eight jurisdictions (India, Singapore, UAE-DIFC, US-Delaware/federal, US-Generalist, England & Wales, Republic of Korea, European Union),
 each with a golden answer containing verified statutory and case-law citations,
 together with the judge prompt, scoring rubric, and methodology.
 
@@ -204,7 +204,9 @@ the 0G Galileo testnet.
 ## 6. Limitations and future work
 
 1. **5 questions per jurisdiction is a v1 floor, not a ceiling.** v1.1.0
-   targets 8 additional jurisdictions and 25 questions per jurisdiction.
+   added three of the eight additional jurisdictions originally targeted
+   (England & Wales, Republic of Korea, European Union); the remaining
+   five and a 25-questions-per-jurisdiction depth target are v1.2.0 work.
 2. **Judge bias.** A single Claude judge is the easiest reproducible setup,
    but two-judge or model-diverse judging would reduce systematic bias.
    See `judges/disagreement.md` for a planned protocol.
@@ -223,7 +225,7 @@ the 0G Galileo testnet.
    directional signal (a partial-knowledge B-grade answer) is stable; the
    specific defect is sample-dependent. We do not remediate this with a
    prompt anchor because of the Seoul Art 124 cross-contamination risk noted
-   under §7 v1.1.0 — a tightly scoped anchor on one provision in an interlinked
+   under §7 Engine v1.1.0 — a tightly scoped anchor on one provision in an interlinked
    regulatory regime (here GDPR / DSA / DMA) can degrade unrelated questions
    in the same bank. Confabulation on tail-detail is therefore treated as a
    capability ceiling rather than a fixable defect at v1.1.0.
@@ -248,12 +250,34 @@ same agent, same bank, two minutes apart) — even N=3 sampling is not
 deterministic at the band level, so per-question variance flags from a
 single run should not be over-interpreted as agent-level defects without
 a multi-run cross-check. See
-[../../docs/_archive/legacy-rescore-v1-1-findings.md](../../docs/_archive/legacy-rescore-v1-1-findings.md)
+[`docs/archive/legacy-rescore-v1-1-findings.md`](../docs/archive/legacy-rescore-v1-1-findings.md)
 for per-agent breakdowns.
 
-## 7. Engine changelog
+## 7. Engine and benchmark changelog
 
-### v1.1.0 — 2026-05-29
+### Benchmark v1.1.0 — 2026-05-31
+
+- Three new jurisdiction banks released: England & Wales
+  ([`england-wales.json`](../questions/v1.1.0/england-wales.json)),
+  Republic of Korea ([`korea.json`](../questions/v1.1.0/korea.json)),
+  European Union ([`eu.json`](../questions/v1.1.0/eu.json)). Total
+  benchmark coverage moves from 25 to 40 questions across 8
+  jurisdictions.
+- Verification methodology refined post-v1.0.0. Citations now carry an
+  explicit `primary_verified` boolean; where the primary host blocked
+  automated fetches, citations record a
+  `secondary_corroboration_sources` integer alongside the verbatim
+  quotation. The refinement was prompted by a WebFetch hallucination
+  caught on DMA Article 3(2) during EU drafting and recovered via a
+  raw-curl re-fetch against EUR-Lex; the find shaped the v1.1.0
+  citation-gate posture for the other two banks.
+- Development findings published in
+  [`docs/archive/`](../docs/archive/): the EU baseline verification
+  notes (including the DMA Art 3(2) recovery), the discarded Korea
+  anchor-question experiment, and the legacy-agent rescoring against
+  the v1.1.0 methodology.
+
+### Engine v1.1.0 — 2026-05-29
 
 Three engine changes; question-bank schema unchanged.
 

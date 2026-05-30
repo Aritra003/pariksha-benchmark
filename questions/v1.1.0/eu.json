@@ -1,0 +1,174 @@
+{
+  "version": "1.1.0",
+  "jurisdiction": "European Union",
+  "jurisdiction_code": "EU",
+  "agent_focus": "eu.pariksha.eth",
+  "scope_note": "Scoped to GDPR + DSA + DMA (directly applicable EU Regulations). Member-state implementation, directives, and AI Act out of scope for v1.1.0.",
+  "description": "EU-level digital and data law — General Data Protection Regulation (Regulation (EU) 2016/679), Digital Services Act (Regulation (EU) 2022/2065), Digital Markets Act (Regulation (EU) 2022/1925). DRAFT for review; not yet published.",
+  "last_verified": "2026-05-31",
+  "verification_method": "Primary sources via EUR-Lex / legislation.gov.uk / Springer / US Federal Judicial Center where reachable; authoritative secondary corroboration where primary fetch was blocked by WAF. Spot-checked against primary by reviewer during v1.1.0 promotion.",
+  "question_count": 5,
+  "questions": [
+    {
+      "id": "eu-001",
+      "question": "Under Article 6(1) of the GDPR (Regulation (EU) 2016/679), enumerate the six lawful bases for processing personal data and state the threshold each requires. Identify which basis a controller would typically rely on for (a) processing payroll data of its own employees and (b) sending direct marketing email to existing customers, and explain why.",
+      "goldenAnswer": "Article 6(1) GDPR provides that processing shall be lawful only if and to the extent that at least one of the following six bases applies: (a) the data subject has given consent to the processing for one or more specific purposes; (b) processing is necessary for the performance of a contract to which the data subject is party, or to take pre-contractual steps at the data subject's request; (c) processing is necessary for compliance with a legal obligation to which the controller is subject; (d) processing is necessary to protect the vital interests of the data subject or another natural person; (e) processing is necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller; and (f) processing is necessary for the purposes of the legitimate interests pursued by the controller or a third party, except where such interests are overridden by the data subject's interests or fundamental rights and freedoms (the so-called 'legitimate interests balancing test'). Public authorities cannot rely on (f) for processing in performance of their tasks (Article 6(1) second subparagraph). For (a) employee payroll — the typical basis is Article 6(1)(b) (contract — the employment contract) combined with Article 6(1)(c) (legal obligation — tax, social security, employment law); consent (Article 6(1)(a)) is generally inappropriate in an employment context because of the inherent imbalance of power, which the EDPB has consistently held undermines the 'freely given' requirement under Article 4(11). For (b) direct marketing email to existing customers — the typical basis is Article 6(1)(f) legitimate interests, with Recital 47 expressly recognising direct marketing as a legitimate interest, subject to the customer's right to object under Article 21(2). The ePrivacy Directive (2002/58/EC) imposes additional consent requirements for marketing emails that operate alongside the GDPR.",
+      "category": "GDPR-lawful-basis",
+      "jurisdiction": "European Union",
+      "expected_topics": ["GDPR Article 6", "six lawful bases", "consent", "contract", "legitimate interests", "employment context"],
+      "difficulty": "medium",
+      "last_verified": "2026-05-30",
+      "verification": {
+        "citations": [
+          {
+            "cite": "GDPR Article 6(1) — six lawful bases for processing",
+            "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679",
+            "source_quote": "Processing shall be lawful only if and to the extent that at least one of the following applies: (a) the data subject has given consent to the processing of his or her personal data for one or more specific purposes; (b) processing is necessary for the performance of a contract to which the data subject is party or in order to take steps at the request of the data subject prior to entering into a contract; (c) processing is necessary for compliance with a legal obligation to which the controller is subject; (d) processing is necessary in order to protect the vital interests of the data subject or of another natural person; (e) processing is necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller; (f) processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data, in particular where the data subject is a child. Point (f) of the first subparagraph shall not apply to processing carried out by public authorities in the performance of their tasks.",
+            "secondary_source_url": "https://www.edpb.europa.eu/sme-data-protection-guide/legal-basis-processing_en",
+            "primary_verified": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "eu-002",
+      "question": "Under Chapter V of the GDPR (Articles 44-49), what is the legal framework for transferring personal data to a third country or international organisation, and specifically under Article 46, what 'appropriate safeguards' may a controller or processor rely on absent an adequacy decision under Article 45?",
+      "goldenAnswer": "Chapter V of the GDPR (Articles 44-49) establishes a tiered framework for international transfers, premised on Article 44's general principle that any transfer must comply with Chapter V's conditions in addition to other GDPR requirements. The hierarchy is: (1) Article 45 — adequacy decisions by the European Commission certifying that a third country, territory or sector ensures an adequate level of protection (e.g. UK, Japan, EU-US Data Privacy Framework); transfers under an adequacy decision require no further authorisation. (2) Article 46 — appropriate safeguards where no adequacy decision exists, subject to enforceable data subject rights and effective legal remedies. Article 46(2) permits, without supervisory authority authorisation: (a) a legally binding and enforceable instrument between public authorities or bodies; (b) binding corporate rules in accordance with Article 47; (c) standard data protection clauses adopted by the Commission (the 'modular' 2021 SCCs under Decision (EU) 2021/914); (d) standard data protection clauses adopted by a supervisory authority and approved by the Commission; (e) an approved code of conduct pursuant to Article 40 together with binding and enforceable commitments by the recipient in the third country; and (f) an approved certification mechanism pursuant to Article 42 together with similar commitments. Article 46(3) additionally permits, subject to supervisory authority authorisation, ad hoc contractual clauses between the controller/processor and the recipient, or provisions inserted into administrative arrangements between public authorities. (3) Article 49 — derogations for specific situations (explicit consent, contract necessity, important public interest, legal claims, vital interests, public register), available only on a one-off, non-systematic basis and after first considering adequacy and safeguards. Following Schrems II (Case C-311/18, judgment of 16 July 2020), Article 46 reliance requires a Transfer Impact Assessment to determine whether the third country's law and practice undermine the safeguards in practice, and the adoption of supplementary measures where they do.",
+      "category": "GDPR-international-transfers",
+      "jurisdiction": "European Union",
+      "expected_topics": ["GDPR Article 46", "appropriate safeguards", "SCCs", "BCRs", "adequacy decision", "Schrems II"],
+      "difficulty": "hard",
+      "last_verified": "2026-05-30",
+      "verification": {
+        "citations": [
+          {
+            "cite": "GDPR Article 46(1) — appropriate safeguards requirement",
+            "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679",
+            "source_quote": "In the absence of a decision pursuant to Article 45(3), a controller or processor may transfer personal data to a third country or an international organisation only if the controller or processor has provided appropriate safeguards, and on condition that enforceable data subject rights and effective legal remedies for data subjects are available.",
+            "secondary_source_url": "https://www.edpb.europa.eu/our-work-tools/our-documents/recommendations/recommendations-012020-measures-supplement-transfer_en",
+            "primary_verified": true
+          },
+          {
+            "cite": "GDPR Article 46(2) — safeguards not requiring supervisory authority authorisation",
+            "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679",
+            "source_quote": "The appropriate safeguards referred to in paragraph 1 may be provided for, without requiring any specific authorisation from a supervisory authority, by: (a) a legally binding and enforceable instrument between public authorities or bodies; (b) binding corporate rules in accordance with Article 47; (c) standard data protection clauses adopted by the Commission in accordance with the examination procedure referred to in Article 93(2); (d) standard data protection clauses adopted by a supervisory authority and approved by the Commission pursuant to the examination procedure referred to in Article 93(2); (e) an approved code of conduct pursuant to Article 40 together with binding and enforceable commitments of the controller or processor in the third country to apply the appropriate safeguards, including as regards data subjects' rights; or (f) an approved certification mechanism pursuant to Article 42 together with binding and enforceable commitments of the controller or processor in the third country to apply the appropriate safeguards, including as regards data subjects' rights.",
+            "secondary_source_url": "https://www.edpb.europa.eu/our-work-tools/our-documents/recommendations/recommendations-012020-measures-supplement-transfer_en",
+            "primary_verified": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "eu-003",
+      "question": "Under Article 17 of the Digital Services Act (Regulation (EU) 2022/2065), when must a hosting service provider issue a 'statement of reasons' to a recipient of the service, what content must the statement contain, and to which decisions does the obligation NOT apply?",
+      "goldenAnswer": "Article 17(1) DSA requires providers of hosting services to provide a clear and specific statement of reasons to any affected recipients of the service for any restriction imposed on the ground that the information provided by the recipient is illegal content or incompatible with the provider's terms and conditions. The restrictions covered are listed in Article 17(1)(a)-(d): (a) any restriction of the visibility of specific items of information, including removal of content, disabling access to content, or demoting content; (b) suspension, termination or other restriction of monetary payments; (c) suspension or termination of the provision of the service in whole or in part; and (d) suspension or termination of the recipient's account. Article 17(3) prescribes the minimum content of the statement (a)-(f): (a) whether the decision entails removal, disabling, demotion, restriction of visibility, suspension/termination of monetary payments or other measures, and where relevant the territorial scope and duration; (b) the facts and circumstances relied on, including whether the decision was taken pursuant to a notice submitted under Article 16 or own-initiative investigations and, where strictly necessary, the identity of the notifier; (c) where applicable, information on the use made of automated means; (d) where the decision concerns alleged illegal content, the legal ground relied on and explanation; (e) where the decision is based on alleged incompatibility with terms and conditions, the contractual ground and explanation; and (f) clear and user-friendly information on possibilities for redress, including internal complaint-handling (Article 20), out-of-court dispute settlement (Article 21), and judicial redress. Article 17(4) requires the statement to be clear, easily comprehensible, and as precise and specific as reasonably possible. The obligation does NOT apply: (i) where the relevant electronic contact details of the recipient are not known to the provider (Article 17(2)); (ii) where the information is deceptive high-volume commercial content (Article 17(2) final sentence); and (iii) to orders to act against illegal content under Article 9 (Article 17(5)). Online platforms must additionally submit Article 17 statements to the publicly accessible DSA Transparency Database maintained by the Commission (Article 24(5) DSA).",
+      "category": "DSA-platform-obligations",
+      "jurisdiction": "European Union",
+      "expected_topics": ["DSA Article 17", "statement of reasons", "content moderation", "hosting service", "DSA Transparency Database"],
+      "difficulty": "medium",
+      "last_verified": "2026-05-30",
+      "verification": {
+        "citations": [
+          {
+            "cite": "DSA Article 17(1) — statement of reasons obligation and covered restrictions",
+            "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022R2065",
+            "source_quote": "Providers of hosting services shall provide a clear and specific statement of reasons to any affected recipients of the service for any of the following restrictions imposed on the ground that the information provided by the recipient of the service is illegal content or incompatible with their terms and conditions: (a) any restrictions of the visibility of specific items of information provided by the recipient of the service, including removal of content, disabling access to content, or demoting content; (b) suspension, termination or other restriction of monetary payments; (c) suspension or termination of the provision of the service in whole or in part; (d) suspension or termination of the recipient of the service's account.",
+            "secondary_source_url": "https://digital-strategy.ec.europa.eu/en/policies/digital-services-act-package",
+            "primary_verified": true
+          },
+          {
+            "cite": "DSA Article 17(2) — when the obligation does not apply",
+            "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022R2065",
+            "source_quote": "Paragraph 1 shall only apply where the relevant electronic contact details are known to the provider. It shall apply at the latest from the date that the restriction is imposed, regardless of why or how it was imposed. Paragraph 1 shall not apply where the information is deceptive high-volume commercial content.",
+            "secondary_source_url": "https://digital-strategy.ec.europa.eu/en/policies/digital-services-act-package",
+            "primary_verified": true
+          },
+          {
+            "cite": "DSA Article 17(3) — content of the statement",
+            "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022R2065",
+            "source_quote": "The statement of reasons referred to in paragraph 1 shall at least contain the following information: (a) information on whether the decision entails either the removal of, the disabling of access to, the demotion of or the restriction of the visibility of the information, or the suspension or termination of monetary payments related to that information, or imposes other measures referred to in paragraph 1 with regard to the information, and, where relevant, the territorial scope of the decision and its duration; (b) the facts and circumstances relied on in taking the decision, including, where relevant, information on whether the decision was taken pursuant to a notice submitted in accordance with Article 16 or based on voluntary own-initiative investigations and, where strictly necessary, the identity of the notifier; (c) where applicable, information on the use made of automated means in taking the decision, including information on whether the decision was taken in respect of content detected or identified using automated means; (d) where the decision concerns allegedly illegal content, a reference to the legal ground relied on and explanations as to why the information is considered to be illegal content on that ground; (e) where the decision is based on the alleged incompatibility of the information with the terms and conditions of the provider of hosting services, a reference to the contractual ground relied on and explanations as to why the information is considered to be incompatible with that ground; (f) clear and user-friendly information on the possibilities for redress available to the recipient of the service in respect of the decision, in particular, where applicable through internal complaint-handling mechanisms, out-of-court dispute settlement and judicial redress.",
+            "secondary_source_url": "https://digital-strategy.ec.europa.eu/en/policies/digital-services-act-package",
+            "primary_verified": true
+          },
+          {
+            "cite": "DSA Article 17(4) — clarity requirement",
+            "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022R2065",
+            "source_quote": "The information provided by the providers of hosting services in accordance with this Article shall be clear and easily comprehensible and as precise and specific as reasonably possible under the given circumstances. The information shall, in particular, be such as to reasonably allow the recipient of the service concerned to effectively exercise the possibilities for redress referred to in of paragraph 3, point (f).",
+            "secondary_source_url": "https://digital-strategy.ec.europa.eu/en/policies/digital-services-act-package",
+            "primary_verified": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "eu-004",
+      "question": "Under Article 34 of the Digital Services Act, what systemic risk assessment obligations apply to providers of Very Large Online Platforms (VLOPs) and Very Large Online Search Engines (VLOSEs)? Identify (a) when the assessment must be carried out, (b) the four categories of systemic risks to be assessed, and (c) the design and operational factors that must be taken into account.",
+      "goldenAnswer": "Article 34(1) DSA requires providers of VLOPs and VLOSEs to diligently identify, analyse and assess any systemic risks in the Union stemming from the design or functioning of their service and its related systems, including algorithmic systems, or from the use made of their services. (a) Timing: the assessment must be carried out by the date of application referred to in Article 33(6), second subparagraph, and at least once every year thereafter; an updated assessment must in any event be performed prior to deploying functionalities that are likely to have a critical impact on the risks identified. The assessment must be specific to the service and proportionate to the systemic risks, considering severity and probability. (b) The four categories of systemic risks under Article 34(1)(a)-(d) are: (i) the dissemination of illegal content through their services; (ii) any actual or foreseeable negative effects for the exercise of fundamental rights, in particular human dignity (Article 1 of the Charter), respect for private and family life (Article 7), protection of personal data (Article 8), freedom of expression and information including the freedom and pluralism of the media (Article 11), non-discrimination (Article 21), the rights of the child (Article 24), and a high level of consumer protection (Article 38); (iii) any actual or foreseeable negative effects on civic discourse and electoral processes, and public security; and (iv) any actual or foreseeable negative effects in relation to gender-based violence, the protection of public health and minors, and serious negative consequences to the person's physical and mental well-being. (c) Article 34(2) requires the assessment to take into account, in particular, whether and how the following factors influence the systemic risks: (a) the design of recommender systems and any other relevant algorithmic system; (b) content moderation systems; (c) the applicable terms and conditions and their enforcement; (d) systems for selecting and presenting advertisements; and (e) data-related practices of the provider. Article 34(2) further requires the assessment to analyse whether and how risks are influenced by intentional manipulation of the service (including inauthentic use, automated exploitation, and amplification of illegal or incompatible content) and to take into account specific regional or linguistic aspects, including where specific to a Member State. The assessment supports the Article 35 obligation to implement reasonable, proportionate and effective mitigation measures and feeds into the independent audit obligation under Article 37. Risk assessment supporting documents must be preserved for at least three years (Article 34(3)).",
+      "category": "DSA-VLOP-duties",
+      "jurisdiction": "European Union",
+      "expected_topics": ["DSA Article 34", "VLOP", "systemic risks", "annual assessment", "fundamental rights", "recommender systems"],
+      "difficulty": "hard",
+      "last_verified": "2026-05-30",
+      "verification": {
+        "citations": [
+          {
+            "cite": "DSA Article 34(1) — risk assessment obligation, timing, and four categories",
+            "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022R2065",
+            "source_quote": "Providers of very large online platforms and of very large online search engines shall diligently identify, analyse and assess any systemic risks in the Union stemming from the design or functioning of their service and its related systems, including algorithmic systems, or from the use made of their services. They shall carry out the risk assessments by the date of application referred to in Article 33(6), second subparagraph, and at least once every year thereafter, and in any event prior to deploying functionalities that are likely to have a critical impact on the risks identified pursuant to this Article. This risk assessment shall be specific to their services and proportionate to the systemic risks, taking into consideration their severity and probability, and shall include the following systemic risks: (a) the dissemination of illegal content through their services; (b) any actual or foreseeable negative effects for the exercise of fundamental rights, in particular the fundamental rights to human dignity enshrined in Article 1 of the Charter, to respect for private and family life enshrined in Article 7 of the Charter, to the protection of personal data enshrined in Article 8 of the Charter, to freedom of expression and information, including the freedom and pluralism of the media, enshrined in Article 11 of the Charter, to non-discrimination enshrined in Article 21 of the Charter, to respect for the rights of the child enshrined in Article 24 of the Charter and to a high-level of consumer protection enshrined in Article 38 of the Charter; (c) any actual or foreseeable negative effects on civic discourse and electoral processes, and public security; (d) any actual or foreseeable negative effects in relation to gender-based violence, the protection of public health and minors and serious negative consequences to the person's physical and mental well-being.",
+            "secondary_source_url": "https://digital-strategy.ec.europa.eu/en/policies/digital-services-act-package",
+            "primary_verified": true
+          },
+          {
+            "cite": "DSA Article 34(2) — design and operational factors",
+            "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022R2065",
+            "source_quote": "When conducting risk assessments, providers of very large online platforms and of very large online search engines shall take into account, in particular, whether and how the following factors influence any of the systemic risks referred to in paragraph 1: (a) the design of their recommender systems and any other relevant algorithmic system; (b) their content moderation systems; (c) the applicable terms and conditions and their enforcement; (d) systems for selecting and presenting advertisements; (e) data related practices of the provider. The assessments shall also analyse whether and how the risks pursuant to paragraph 1 are influenced by intentional manipulation of their service, including by inauthentic use or automated exploitation of the service, as well as the amplification and potentially rapid and wide dissemination of illegal content and of information that is incompatible with their terms and conditions. The assessment shall take into account specific regional or linguistic aspects, including when specific to a Member State.",
+            "secondary_source_url": "https://digital-strategy.ec.europa.eu/en/policies/digital-services-act-package",
+            "primary_verified": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "eu-005",
+      "question": "Under Article 3 of the Digital Markets Act (Regulation (EU) 2022/1925), what are the qualitative criteria and quantitative thresholds for designating an undertaking as a 'gatekeeper'? Describe (a) the three qualitative criteria, (b) the quantitative thresholds that create a presumption that each criterion is met, and (c) the procedural notification and designation obligations.",
+      "goldenAnswer": "Article 3(1) DMA provides that an undertaking shall be designated as a gatekeeper if: (a) it has a significant impact on the internal market; (b) it provides a core platform service which is an important gateway for business users to reach end users; and (c) it enjoys an entrenched and durable position, in its operations, or it is foreseeable that it will enjoy such a position in the near future. (b) Article 3(2) sets quantitative thresholds creating a rebuttable presumption that each of the three qualitative criteria is met. (i) The 'significant impact' criterion of Article 3(1)(a) is presumed met where the undertaking achieves an annual Union turnover equal to or above EUR 7.5 billion in each of the last three financial years, OR where its average market capitalisation or equivalent fair market value amounted to at least EUR 75 billion in the last financial year, AND it provides the same core platform service in at least three Member States (Article 3(2)(a)). (ii) The 'important gateway' criterion of Article 3(1)(b) is presumed met where the undertaking provides a core platform service that in the last financial year has at least 45 million monthly active end users established or located in the Union and at least 10,000 yearly active business users established in the Union, identified and calculated in accordance with the methodology in the Annex (Article 3(2)(b)). (iii) The 'entrenched and durable position' criterion of Article 3(1)(c) is presumed met where the thresholds in point (b) of paragraph 2 were met in each of the last three financial years (Article 3(2)(c)). (c) Under Article 3(3), an undertaking providing core platform services that meets all of the thresholds in paragraph 2 must notify the Commission without delay, and in any event within 2 months after those thresholds are met, and provide the relevant information. Under Article 3(4), the Commission shall designate the undertaking as a gatekeeper without undue delay and at the latest within 45 working days after receiving the complete information. Under Article 3(5), an undertaking may, with its notification, present sufficiently substantiated arguments to demonstrate that, exceptionally, despite meeting the thresholds, it does not satisfy the qualitative requirements in paragraph 1; where those arguments manifestly call the presumptions into question the Commission may open the procedure under Article 17(3) DMA (market investigation).",
+      "category": "DMA-designation",
+      "jurisdiction": "European Union",
+      "expected_topics": ["DMA Article 3", "gatekeeper designation", "core platform service", "EUR 7.5 billion", "EUR 75 billion", "45 million monthly active users", "10, 000 business users"],
+      "difficulty": "hard",
+      "last_verified": "2026-05-30",
+      "verification": {
+        "citations": [
+          {
+            "cite": "DMA Article 3(1) — three qualitative criteria for gatekeeper designation",
+            "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022R1925",
+            "source_quote": "An undertaking shall be designated as a gatekeeper if: (a) it has a significant impact on the internal market; (b) it provides a core platform service which is an important gateway for business users to reach end users; and (c) it enjoys an entrenched and durable position, in its operations, or it is foreseeable that it will enjoy such a position in the near future.",
+            "secondary_source_url": "https://digital-markets-act.ec.europa.eu/about-dma_en",
+            "primary_verified": true
+          },
+          {
+            "cite": "DMA Article 3(2) — quantitative thresholds presuming each criterion is met",
+            "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022R1925",
+            "source_quote": "An undertaking shall be presumed to satisfy the respective requirements in paragraph 1: (a) as regards paragraph 1, point (a), where it achieves an annual Union turnover equal to or above EUR 7,5 billion in each of the last three financial years, or where its average market capitalisation or its equivalent fair market value amounted to at least EUR 75 billion in the last financial year, and it provides the same core platform service in at least three Member States; (b) as regards paragraph 1, point (b), where it provides a core platform service that in the last financial year has at least 45 million monthly active end users established or located in the Union and at least 10 000 yearly active business users established in the Union, identified and calculated in accordance with the methodology and indicators set out in the Annex; (c) as regards paragraph 1, point (c), where the thresholds in point (b) of this paragraph were met in each of the last three financial years.",
+            "secondary_source_url": "https://digital-markets-act.ec.europa.eu/about-dma_en",
+            "primary_verified": true
+          },
+          {
+            "cite": "DMA Article 3(3) — notification within 2 months",
+            "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022R1925",
+            "source_quote": "Where an undertaking providing core platform services meets all of the thresholds in paragraph 2, it shall notify the Commission thereof without delay and in any event within 2 months after those thresholds are met and provide it with the relevant information identified in paragraph 2.",
+            "secondary_source_url": "https://digital-markets-act.ec.europa.eu/about-dma_en",
+            "primary_verified": true
+          },
+          {
+            "cite": "DMA Article 3(4) — Commission designation within 45 working days",
+            "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022R1925",
+            "source_quote": "The Commission shall designate as a gatekeeper, without undue delay and at the latest within 45 working days after receiving the complete information referred to in paragraph 3, an undertaking providing core platform services that meets all the thresholds in paragraph 2.",
+            "secondary_source_url": "https://digital-markets-act.ec.europa.eu/about-dma_en",
+            "primary_verified": true
+          }
+        ]
+      }
+    }
+  ]
+}

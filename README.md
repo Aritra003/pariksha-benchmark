@@ -1,7 +1,7 @@
 # Pariksha Benchmark
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-[![Release](https://img.shields.io/badge/release-v1.0.0-green.svg)](CHANGELOG.md)
+[![Release](https://img.shields.io/badge/release-v1.1.0-green.svg)](CHANGELOG.md)
 
 An open benchmark for jurisdiction-aware legal AI agents.
 
@@ -11,9 +11,10 @@ Pariksha (Sanskrit: "examination") is a public benchmark for evaluating
 legal AI agents on **jurisdictional accuracy**, **citation correctness**,
 and **statutory grounding** — not on generic reasoning ability.
 
-The v1.0.0 release contains **5 question banks**, each with 5
-expert-written questions, golden answers carrying real statutory and
-case-law citations, expected-topic lists, and difficulty tiers:
+As of v1.1.0, Pariksha ships **8 question banks** (5 from v1.0.0, 3 added
+in v1.1.0), each with 5 expert-written questions, golden answers carrying
+real statutory and case-law citations, expected-topic lists, and
+difficulty tiers:
 
 | Bank | Jurisdiction | Focus |
 |---|---|---|
@@ -22,6 +23,9 @@ case-law citations, expected-topic lists, and difficulty tiers:
 | [`uae-difc.json`](questions/v1.0.0/uae-difc.json) | UAE — DIFC | DIFC Courts commercial and employment |
 | [`us-delaware-federal.json`](questions/v1.0.0/us-delaware-federal.json) | US (DE + Federal) | DGCL corporate, federal securities |
 | [`us-generalist.json`](questions/v1.0.0/us-generalist.json) | US — Generalist | Cross-state US commercial baseline |
+| [`england-wales.json`](questions/v1.1.0/england-wales.json) | England & Wales | Arbitration Act 1996, UCTA 1977, CA 2006, SoGA 1979, CPR Part 36 |
+| [`korea.json`](questions/v1.1.0/korea.json) | Republic of Korea | Commercial Act, Civil Act tort, FIPA, persuasive-precedent doctrine |
+| [`eu.json`](questions/v1.1.0/eu.json) | European Union | GDPR, DSA, DMA |
 
 Each question is paired with a verified golden answer. Every citation in
 every golden answer must clear the **citation verification gate** before
@@ -106,7 +110,7 @@ The JSON schema is enforced by
 
 High level (the methodology paper has the canonical procedure):
 
-1. Pick a question bank from `questions/v1.0.0/`.
+1. Pick a question bank from `questions/v1.0.0/` or `questions/v1.1.0/`.
 2. For each question, prompt your agent with the `question` field and
    any system prompt or skill manifest that defines the agent's
    jurisdictional focus.
@@ -160,11 +164,13 @@ Pariksha was developed alongside two live production legal AI systems:
 This benchmark is the methodology and question banks behind those
 systems, released for independent reproduction and contribution.
 
-A subsequent **v1.1.0** release will add the England & Wales, Korea,
-and EU question banks (currently in draft, held back from v1.0.0 to
-finish citation verification and — for Korea — to land the
-scope-isolated anchor described above). v1.1.0 will ship under its own
-git tag.
+**v1.1.0** (2026-05-31) added the England & Wales, Korea, and EU
+question banks — primary-source verified against EUR-Lex,
+legislation.gov.uk, Springer Nature, and the US Federal Judicial Center
+where reachable, with authoritative secondary corroboration where
+primary fetches were blocked by WAF. Development findings are published
+in [`docs/archive/`](docs/archive/). See
+[CHANGELOG.md](CHANGELOG.md#v110--2026-05-31) for the full release notes.
 
 ## What this is NOT
 

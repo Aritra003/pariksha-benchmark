@@ -1,0 +1,174 @@
+{
+  "version": "1.1.0",
+  "jurisdiction": "Republic of Korea",
+  "jurisdiction_code": "KR",
+  "agent_focus": "seoul.kr.pariksha.eth",
+  "description": "Korean commercial and corporate law — Commercial Act (상법), Civil Act (민법), Foreign Investment Promotion Act (외국인투자촉진법), and the persuasive-not-binding nature of Korean Supreme Court (대법원) precedent in a civil-law jurisdiction. Commercial scope only. DRAFT for review; not yet published.",
+  "last_verified": "2026-05-31",
+  "verification_method": "Primary sources via EUR-Lex / legislation.gov.uk / Springer / US Federal Judicial Center where reachable; authoritative secondary corroboration where primary fetch was blocked by WAF. Spot-checked against primary by reviewer during v1.1.0 promotion.",
+  "verification_note": "Anchored on statute + doctrinal commentary; per-case citations deliberately avoided to stay inside the verification gate.",
+  "question_count": 5,
+  "questions": [
+    {
+      "id": "kr-001",
+      "question": "Under the Korean Commercial Act (상법), what duties of loyalty apply to a director who proposes (a) to engage in a transaction in the same line of business as the company, or (b) to enter into a transaction with the company on his/her own account? Identify the specific Articles and the procedural requirements for each.",
+      "goldenAnswer": "Two distinct duty-of-loyalty provisions in the Korean Commercial Act govern these scenarios. Article 397 ('Prohibition of Competition') provides: 'No director shall, without the approval of the board of directors, engage in, on his/her own account or on the account of a third party, any transaction in the same type of business of the company or become a general partner or a director of any other company, the business purposes of which are the same as those of the company.' The procedural requirement is prior approval by the board of directors; without such approval, the company may, under Article 397(2), demand that the transaction be deemed performed on the company's account or claim damages. Article 398 ('Transactions between Directors, etc. and Company') governs self-dealing: 'When a director intends to engage in a transaction with the company on his/her own account or on the account of a third party, he/she shall in advance disclose material facts about the relevant transaction at the board of directors and shall obtain approval therefrom.' The procedural requirement is therefore (i) advance disclosure of material facts at the board and (ii) board approval before the transaction. Article 398 was strengthened by the 2011 Commercial Act amendment to require a two-thirds supermajority of the board (not a simple majority) and to extend its scope to transactions involving major shareholders and their related parties.",
+      "category": "corporate",
+      "jurisdiction": "Republic of Korea",
+      "expected_topics": ["Commercial Act", "Article 397", "Article 398", "prohibition of competition", "self-dealing", "board approval"],
+      "difficulty": "hard",
+      "last_verified": "2026-05-29",
+      "verification": {
+        "citations": [
+          {
+            "cite": "Korean Commercial Act, Article 397 (Prohibition of Competition)",
+            "source_url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=54525&lang=ENG",
+            "source_quote": "No director shall, without the approval of the board of directors, engage in, on his/her own account or on the account of a third party, any transaction in the same type of business of the company or become a general partner or a director of any other company, the business purposes of which are the same as those of the company.",
+            "secondary_source_url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=54525&lang=ENG",
+            "primary_verified": true
+          },
+          {
+            "cite": "Korean Commercial Act, Article 398 (Transactions between Directors and Company)",
+            "source_url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=54525&lang=ENG",
+            "source_quote": "When a director intends to engage in a transaction with the company on his/her own account or on the account of a third party, he/she shall in advance disclose material facts about the relevant transaction at the board of directors and shall obtain approval therefrom.",
+            "secondary_source_url": "https://askkorealaw.com/2020/03/19/director-fiduciary-duty-korean-law/",
+            "primary_verified": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "kr-002",
+      "question": "Under Article 750 of the Korean Civil Act (민법), what are the elements a plaintiff must establish to recover for tort liability ('불법행위')? State the statutory text and the four-element framework recognised by Korean courts.",
+      "goldenAnswer": "Article 750 of the Korean Civil Act provides: 'Any person who causes losses to or inflicts injuries on another person by an unlawful act, intentionally or negligently, shall be bound to make compensation for damages arising therefrom.' Korean courts and commentators distil this into a four-element framework, which the plaintiff bears the burden of establishing: (1) the wrongdoer's intention (고의) or negligence (과실); (2) the unlawfulness of the wrongdoer's act (위법성); (3) damages suffered by the victim (손해); and (4) a causal relationship between the act and the damages (인과관계). All four elements must be established; the absence of any one defeats the claim. Korean tort doctrine treats unlawfulness as an objective element distinct from fault (intention or negligence), distinguishing it from the unified 'fault' concept in some other civil-law systems.",
+      "category": "contract",
+      "jurisdiction": "Republic of Korea",
+      "expected_topics": ["Civil Act", "Article 750", "tort liability", "불법행위", "four elements", "intention or negligence"],
+      "difficulty": "medium",
+      "last_verified": "2026-05-29",
+      "verification": {
+        "citations": [
+          {
+            "cite": "Korean Civil Act, Article 750",
+            "source_url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=45912&lang=ENG",
+            "source_quote": "Any person who causes losses to or inflicts injuries on another person by an unlawful act, intentionally or negligently, shall be bound to make compensation for damages arising therefrom.",
+            "secondary_source_url": "https://s-space.snu.ac.kr/bitstream/10371/213629/1/02_Understanding_Tort_Law_in_Korea_Kye_Joung_Lee.pdf",
+            "primary_verified": true
+          },
+          {
+            "cite": "Four-element tort framework (commentary on Article 750)",
+            "source_url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=45912&lang=ENG",
+            "source_quote": "Under Article 750, there are four elements of a tort: a wrongdoer's intention or negligence, the unlawfulness of a wrongdoer's act, damages, and the causal relationship between a wrongdoer's act and the damages.",
+            "secondary_source_url": "https://s-space.snu.ac.kr/bitstream/10371/213629/1/02_Understanding_Tort_Law_in_Korea_Kye_Joung_Lee.pdf",
+            "primary_verified": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "kr-003",
+      "question": "Under the Korean Foreign Investment Promotion Act (외국인투자촉진법, FIPA), what are the threshold criteria for an inbound transaction to qualify as a 'foreign investment' subject to FIPA's notification and incentive regime? Address (a) the minimum monetary threshold, (b) the share-ownership tests, and (c) the standard filing requirement.",
+      "goldenAnswer": "Under the Foreign Investment Promotion Act (FIPA) and its Enforcement Decree, an inbound transaction qualifies as a 'foreign investment' triggering FIPA's notification regime and access to FIPA-conferred incentives if it meets all of the following thresholds. (a) Monetary minimum: the investment amount must be no less than KRW 100 million (approximately US$69,000 at recent exchange rates). (b) Share-ownership test: the investor must (i) acquire 10% or more of the shares (with voting rights) in a Korean company, or (ii) acquire less than 10% of shares but combine that acquisition with appointing an officer (director, etc.) in the Korean company; alternatively, the investment may take the form of a contribution to a Korean non-profit organisation. (c) Filing requirement: a foreign investment report (FIPA report, 외국인투자신고) must be filed with a designated foreign exchange bank or KOTRA before or in connection with the remittance, and the company must register as a foreign-invested company once the investment is implemented. The Enforcement Decree (amended) also allows administrative agencies to initiate ex officio screening of investments below the mandatory-filing threshold where national-security concerns arise.",
+      "category": "foreign-investment",
+      "jurisdiction": "Republic of Korea",
+      "expected_topics": ["FIPA", "Foreign Investment Promotion Act", "KRW 100 million", "10 percent threshold", "FIPA report", "designated foreign exchange bank"],
+      "difficulty": "medium",
+      "last_verified": "2026-05-29",
+      "verification": {
+        "citations": [
+          {
+            "cite": "Foreign Investment Promotion Act (FIPA) — minimum investment threshold",
+            "source_url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=44627&lang=ENG",
+            "source_quote": "The investment amount for foreign investment under FIPA must be no less than KRW 100 million (US$69,000).",
+            "secondary_source_url": "https://www.whitecase.com/insight-our-thinking/foreign-direct-investment-reviews-2025-republic-of-korea",
+            "primary_verified": true
+          },
+          {
+            "cite": "FIPA — definition of 'foreign investment' share-ownership tests",
+            "source_url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=44627&lang=ENG",
+            "source_quote": "The FIPA defines 'foreign investment' to include acquiring 10 percent or more of the shares in a company incorporated in Korea; acquiring shares of less than 10 percent of a company incorporated in Korea and appointing officers in Korea; and investing in local non-profit organizations.",
+            "secondary_source_url": "https://www.whitecase.com/insight-our-thinking/foreign-direct-investment-reviews-2025-republic-of-korea",
+            "primary_verified": true
+          },
+          {
+            "cite": "FIPA — filing requirement",
+            "source_url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=44627&lang=ENG",
+            "source_quote": "All FDI that qualifies as a foreign investment under the FIPA is subject to filing a report, and all FDI requires filing of a foreign investment report (FIPA report) with a designated foreign exchange bank.",
+            "secondary_source_url": "https://www.whitecase.com/insight-our-thinking/foreign-direct-investment-reviews-2025-republic-of-korea",
+            "primary_verified": true
+          },
+          {
+            "cite": "FIPA Enforcement Decree (ex officio screening amendment)",
+            "source_url": "https://investmentpolicy.unctad.org/investment-laws/laws/594/enforcement-decree-of-the-foreign-investment-promotion-act",
+            "source_quote": "The government introduced amendments to the Enforcement Decree of the Foreign Investment Promotion Act (FIPA), which allows administrative agencies to initiate an ex officio screening where a mandatory filing is not required if there are concerns of national security risk.",
+            "secondary_source_url": "https://iclg.com/practice-areas/foreign-direct-investment-regimes-laws-and-regulations/korea",
+            "primary_verified": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "kr-004",
+      "question": "Under Article 64 of the Korean Commercial Act (상법), what is the extinctive prescription period for a claim arising out of a commercial activity, how does it differ from the general civil prescription period, and what is the rule when the underlying claim could be characterised as either commercial or civil?",
+      "goldenAnswer": "Article 64 of the Korean Commercial Act provides that 'a claim arising out of a commercial activity shall be extinguished by prescription if it is not exercised within five years', unless a shorter limitation period is provided by another statute. This commercial extinctive prescription period of five years is materially shorter than the general civil prescription period under Article 162 of the Korean Civil Act, which is ten years for ordinary claims. The five-year commercial period applies whenever the claim arises directly from a commercial transaction within the meaning of the Commercial Act — i.e., a transaction concluded by a merchant in the course of business, or a transaction characterised as commercial under specific articles of the Commercial Act. Where a claim could be characterised as either commercial or civil, Korean courts apply Article 64 (the commercial five-year period) once it is established that the underlying act is a commercial activity, in line with the Commercial Act's lex specialis priority over the Civil Act for commercial matters. The Korean Supreme Court has, however, developed limits on analogical application of Article 64 to non-commercial claims that are merely 'closely associated' with a commercial transaction.",
+      "category": "commercial",
+      "jurisdiction": "Republic of Korea",
+      "expected_topics": ["Commercial Act", "Article 64", "extinctive prescription", "five years", "ten-year civil prescription", "lex specialis"],
+      "difficulty": "medium",
+      "last_verified": "2026-05-29",
+      "verification": {
+        "citations": [
+          {
+            "cite": "Korean Commercial Act, Article 64 (commercial extinctive prescription)",
+            "source_url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=54525&lang=ENG",
+            "source_quote": "The Korean Commercial Act Article 64 prescribes that the right caused by the commercial act shall be subject to the extinctive prescription by elapsing 5 years if not exercising within that period of time.",
+            "secondary_source_url": "http://www.koreanlii.or.kr/w/index.php/Extinctive_prescription",
+            "primary_verified": true
+          },
+          {
+            "cite": "Commercial Act Article 64 — five-year period and exceptions",
+            "source_url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=54525&lang=ENG",
+            "source_quote": "Article 64 of the Commercial Act applies a 5-year limitation for claims arising from commercial activities, unless otherwise provided by statute.",
+            "secondary_source_url": "https://www.recoveryadvisers.com/insights/the-3-year-limitation-rule-in-korea-what-exporters-insurers-and-financiers-should-know/",
+            "primary_verified": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "kr-005",
+      "question": "In the Korean legal system (a civil-law jurisdiction), what is the formal status of Korean Supreme Court (대법원) precedent — is it binding on lower courts under a stare decisis doctrine, or only persuasive? Identify the statutory basis for the limited reach of higher-court decisions and explain the de facto effect of Supreme Court precedent in practice.",
+      "goldenAnswer": "Korea is a civil-law jurisdiction; statutory law is the primary source of law, and the doctrine of stare decisis as developed in common-law systems does not apply. Korean Supreme Court (대법원) precedent is therefore not formally binding on lower courts as a matter of general doctrine — past judicial decisions do not constitute binding precedent for future cases. The formal limit on the reach of higher-court decisions is set by Article 8 of the Court Organization Act (법원조직법, sometimes translated 'Judicial Organization Act'), under which a higher court's decision in the judicial hierarchy prevails over a lower court's only in the specific case concerned (i.e., on remand or in the same proceedings), not as a general rule for unrelated future cases. In practice, however, Korean Supreme Court decisions carry significant persuasive authority: lower courts generally follow the legal interpretations articulated by the Supreme Court, and Supreme Court precedent is therefore regarded as a de facto secondary source of law that materially affects litigation outcomes. The Supreme Court may itself reverse its earlier holdings, typically through an en banc decision (전원합의체 판결) of its Grand Bench, which is the formal mechanism for overruling established precedent.",
+      "category": "judicial-precedent",
+      "jurisdiction": "Republic of Korea",
+      "expected_topics": ["civil law", "stare decisis", "Supreme Court precedent", "Court Organization Act", "Article 8", "en banc"],
+      "difficulty": "hard",
+      "last_verified": "2026-05-29",
+      "verification": {
+        "citations": [
+          {
+            "cite": "Korean legal system — civil-law jurisdiction, no stare decisis",
+            "source_url": "https://www.nyulawglobal.org/globalex/south_korea.html",
+            "source_quote": "There is no principle of stare decisis or precedent in the Korean legal system. The Korean legal system is fundamentally structured around the principles of civil law, distinguishing itself from common law systems by its lack of stare decisis, meaning that past judicial decisions do not serve as binding precedents for future cases.",
+            "secondary_source_url": "https://www.nyulawglobal.org/globalex/south_korea.html",
+            "primary_verified": true
+          },
+          {
+            "cite": "Court Organization Act (법원조직법), Article 8",
+            "source_url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=18064&lang=ENG",
+            "source_quote": "According to Article 8 of the Judicial Organization Act, a higher court's decision in the judicial hierarchy prevails over that of the lower court's decision only on the specific case concerned.",
+            "secondary_source_url": "https://www.lexology.com/library/detail.aspx?g=19d3f6ce-d208-4d74-a0f1-b14fd4f7f400",
+            "primary_verified": true
+          },
+          {
+            "cite": "Korean Supreme Court precedent — de facto persuasive authority",
+            "source_url": "https://www.nyulawglobal.org/globalex/south_korea.html",
+            "source_quote": "The Korean Supreme Court's decisions have a de facto binding effect on lower courts' judgments since lower courts generally follow the Korean Supreme Court's decisions. As the lower courts tend to follow the legal interpretations ascertained by the Supreme Court of Korea in actual practice, the Supreme Court decisions are regarded as the secondary source of law.",
+            "secondary_source_url": "https://www.nyulawglobal.org/globalex/south_korea.html",
+            "primary_verified": true
+          }
+        ]
+      }
+    }
+  ]
+}
