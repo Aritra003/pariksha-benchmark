@@ -1,0 +1,61 @@
+{
+  "version": "1.0.0",
+  "jurisdiction": "US (Delaware corporate + federal securities)",
+  "jurisdiction_code": "US-DE",
+  "agent_focus": "delaware.us.pariksha.eth",
+  "description": "Delaware General Corporation Law (DGCL), Chancery Court fiduciary doctrine, and US federal securities law (Securities Act and Exchange Act). This set is explicitly NOT a US-generalist benchmark — a US-commercial-generalist set is planned for v1.1.0.",
+  "last_verified": "2026-05-25",
+  "question_count": 5,
+  "questions": [
+    {
+      "id": "us-de-001",
+      "question": "In Delaware corporate law, how does the Revlon duty differ from the Unocal standard, and when does each apply to a board's decision?",
+      "goldenAnswer": "Revlon duties (Revlon, Inc. v. MacAndrews & Forbes Holdings, 506 A.2d 173 (Del. 1986)) apply when a company is in 'Revlon mode' — i.e., during a sale of control, sale of substantially all assets, or a break-up. Directors must maximise immediate shareholder value. Unocal scrutiny (Unocal Corp. v. Mesa Petroleum Co., 493 A.2d 946 (Del. 1985)) applies to defensive measures against hostile takeovers; the board must show the threat was reasonably perceived and the response proportionate. Business judgment rule applies when neither standard is triggered.",
+      "category": "corporate",
+      "jurisdiction": "US-DE",
+      "expected_topics": ["Revlon", "Unocal", "Delaware", "fiduciary duty", "sale of control"],
+      "difficulty": "hard",
+      "last_verified": "2026-05-25"
+    },
+    {
+      "id": "us-de-002",
+      "question": "Under SEC Rule 10b-5, what scienter standard applies post-Janus, and how does scheme liability differ from primary liability after Lorenzo v. SEC?",
+      "goldenAnswer": "Post-Janus Capital Group v. First Derivative Traders (2011), only the 'maker' of a false statement (with ultimate authority) has primary Rule 10b-5(b) liability. Lorenzo v. SEC (2019) clarified that non-makers who disseminate false statements with fraudulent intent can be liable under subsections (a) and (c) (scheme/device liability). Scienter requires knowing or reckless disregard of falsity (Ernst & Ernst v. Hochfelder, 1976). Private plaintiffs need to plead scienter with particularity under the PSLRA.",
+      "category": "securities",
+      "jurisdiction": "US-DE",
+      "expected_topics": ["Rule 10b-5", "scienter", "Janus", "Lorenzo", "scheme liability"],
+      "difficulty": "hard",
+      "last_verified": "2026-05-25"
+    },
+    {
+      "id": "us-de-003",
+      "question": "Under DGCL Section 220, what is the proper purpose standard for a stockholder's demand to inspect corporate books and records?",
+      "goldenAnswer": "Under DGCL Section 220, a stockholder must demonstrate a credible basis from which the court can infer possible mismanagement or wrongdoing — a 'proper purpose.' Per High River Limited Partnership v. Mylan Laboratories (2008) and Seinfeld v. Verizon Communications (Del. Ch.), a stockholder need not prove actual wrongdoing, only a credible basis. The inspection is limited to books and records essential and sufficient to the stated purpose. Boards can redact privileged or commercially sensitive information not necessary to the stated purpose.",
+      "category": "corporate",
+      "jurisdiction": "US-DE",
+      "expected_topics": ["DGCL Section 220", "books and records", "proper purpose", "credible basis", "Delaware"],
+      "difficulty": "medium",
+      "last_verified": "2026-05-25"
+    },
+    {
+      "id": "us-de-004",
+      "question": "Under Section 11 of the Securities Act 1933, what due diligence defense is available to an underwriter, and how has the standard evolved post-WorldCom?",
+      "goldenAnswer": "Section 11 imposes strict liability on issuers and expert liability on underwriters for material misstatements in a registration statement. Underwriters can assert the due diligence defense by showing: for expertised portions — reasonable reliance; for non-expertised portions — reasonable investigation yielding reasonable belief that no misstatement existed. Post-WorldCom (In re WorldCom, Inc. Sec. Litig., S.D.N.Y. 2004), courts apply a contextually heightened standard — underwriters must go beyond auditor representations and conduct independent diligence on red flags.",
+      "category": "securities",
+      "jurisdiction": "US-DE",
+      "expected_topics": ["Section 11", "Securities Act", "due diligence defense", "underwriter", "registration statement"],
+      "difficulty": "hard",
+      "last_verified": "2026-05-25"
+    },
+    {
+      "id": "us-de-005",
+      "question": "Under Delaware General Corporation Law Section 102(b)(7), to what extent can a charter provision exculpate officers (post-2022 amendment) in addition to directors from personal liability?",
+      "goldenAnswer": "The 2022 DGCL amendment extended Section 102(b)(7) exculpation to officers (previously only directors), effective August 1, 2022. Officers can be exculpated from personal monetary liability for duty of care breaches. Exceptions (non-exculpable): duty of loyalty breaches, bad faith acts, knowing violations of law, and transactions from which the officer derived an improper personal benefit. Officers cannot be exculpated for derivative claims by stockholders unless an independent committee approves. The 2022 amendment does not apply to pre-existing acts.",
+      "category": "corporate",
+      "jurisdiction": "US-DE",
+      "expected_topics": ["DGCL Section 102(b)(7)", "exculpation", "officers", "2022 amendment", "duty of loyalty"],
+      "difficulty": "hard",
+      "last_verified": "2026-05-25"
+    }
+  ]
+}

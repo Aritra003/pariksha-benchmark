@@ -1,0 +1,71 @@
+{
+  "$schema": "https://github.com/anthropics/claude-for-legal/raw/main/schemas/plugin.schema.json",
+  "name": "pariksha",
+  "version": "1.0.0",
+  "description": "Pariksha — agent-economy-native legal AI benchmark and MCP-discoverable agent marketplace. Provides a jurisdiction-aware adversarial benchmark, on-chain attestation of agent scores on 0G Galileo, and x402 USDC-paid MCP tools for hiring jurisdictional legal AI agents per-task.",
+  "homepage": "https://github.com/pariksha/legal-benchmark",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Aritra Sarkhel",
+      "email": "aritra003@gmail.com"
+    }
+  ],
+  "tags": [
+    "legal-ai",
+    "benchmark",
+    "jurisdiction-specific",
+    "mcp",
+    "agent-economy",
+    "x402",
+    "on-chain-attestation"
+  ],
+  "capabilities": {
+    "skills": [
+      "skills/delhi-india.md",
+      "skills/vidhi-singapore.md",
+      "skills/vidhi-uae-difc.md",
+      "skills/delaware-us.md",
+      "skills/sahayak-india.md"
+    ],
+    "benchmarks": [
+      {
+        "name": "pariksha-v1.0.0",
+        "path": "questions/v1.0.0/",
+        "judge": "judges/grader-prompt.md",
+        "rubric": "judges/rubric.md",
+        "jurisdictions": ["IN", "SG", "AE-DIFC", "US-DE"]
+      }
+    ],
+    "mcp_servers": [
+      {
+        "name": "pariksha-mcp",
+        "url": "https://pariksha-brown.vercel.app/api/mcp",
+        "protocol": "MCP 2025-03-26",
+        "transport": "http-jsonrpc",
+        "payment": {
+          "protocol": "x402",
+          "chain": "base-sepolia",
+          "token": "USDC",
+          "demo_mode": "rate-limited to 5 calls/IP/24h without payment"
+        },
+        "tools_documented_at": "https://pariksha-brown.vercel.app/skill.md"
+      }
+    ],
+    "ai_agent_manifest": "https://pariksha-brown.vercel.app/.well-known/ai-agent.json"
+  },
+  "installation": {
+    "type": "skill_bundle",
+    "post_install_message": "Pariksha plugin installed. Five reference legal-AI skill manifests are now available at skills/. Run the benchmark via the prompts in judges/grader-prompt.md, or call the Pariksha MCP server at https://pariksha-brown.vercel.app/api/mcp for live x402-paid agent calls."
+  },
+  "trust": {
+    "review_status": "community_contribution",
+    "skills_qa_passed": true,
+    "skills_qa_report": "methodology/paper.md",
+    "freshness": {
+      "last_verified": "2026-05-25",
+      "next_review_due": "2026-11-25"
+    },
+    "license_compatible": true
+  }
+}

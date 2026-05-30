@@ -1,0 +1,61 @@
+{
+  "version": "1.0.0",
+  "jurisdiction": "Singapore",
+  "jurisdiction_code": "SG",
+  "agent_focus": "vidhi.sg.pariksha.eth",
+  "description": "SIAC arbitration, SICC jurisdiction, Singapore commercial and corporate law.",
+  "last_verified": "2026-05-25",
+  "question_count": 5,
+  "questions": [
+    {
+      "id": "sg-001",
+      "question": "Under the SIAC Arbitration Rules 2016, what is the default timeline for appointing an emergency arbitrator after an application is filed, and what orders can the emergency arbitrator make?",
+      "goldenAnswer": "Under Rule 30.3 of the SIAC Rules 2016, the President of the Court shall seek to appoint an Emergency Arbitrator within one business day of receipt of the application and the application fee. The Emergency Arbitrator may order or award any interim relief that a full tribunal could order. The emergency arbitrator's order or award is binding but may be modified by the subsequent tribunal under Rule 30.8.",
+      "category": "procedure",
+      "jurisdiction": "Singapore",
+      "expected_topics": ["SIAC Rules 2016", "Rule 30.3", "emergency arbitrator", "interim relief", "one business day"],
+      "difficulty": "medium",
+      "last_verified": "2026-05-25"
+    },
+    {
+      "id": "sg-002",
+      "question": "In Singapore, what is the test for setting aside an arbitral award on grounds of breach of natural justice under Section 24(b) of the International Arbitration Act?",
+      "goldenAnswer": "Per Soh Beng Teck & Co v. Fairmount Development [2007] 3 SLR(R) 86, the test requires: (1) which rule of natural justice was breached; (2) how it was breached; (3) in what way the breach was connected to the making of the award; and (4) how the breach actually prejudiced the applicant's rights. The prejudice must be actual and not merely theoretical — courts apply a causative link test.",
+      "category": "arbitration",
+      "jurisdiction": "Singapore",
+      "expected_topics": ["Section 24(b)", "International Arbitration Act", "natural justice", "Soh Beng Teck", "prejudice"],
+      "difficulty": "hard",
+      "last_verified": "2026-05-25"
+    },
+    {
+      "id": "sg-003",
+      "question": "What is the jurisdictional basis for the Singapore International Commercial Court (SICC) to hear foreign international commercial disputes, and what opt-in mechanism applies?",
+      "goldenAnswer": "The SICC has jurisdiction over international commercial claims under Order 110 of the Rules of Court and the Supreme Court of Judicature Act. Foreign parties can submit to SICC jurisdiction by a written jurisdiction agreement conferring jurisdiction on SICC. A case can also be transferred from the Singapore High Court under O. 110 r. 12. Foreign law need not be proven as fact in SICC proceedings — it is submitted as written submissions. The SICC may apply foreign law directly.",
+      "category": "jurisdiction",
+      "jurisdiction": "Singapore",
+      "expected_topics": ["SICC", "Order 110", "opt-in clause", "international commercial", "foreign parties"],
+      "difficulty": "hard",
+      "last_verified": "2026-05-25"
+    },
+    {
+      "id": "sg-004",
+      "question": "What are the requirements for a valid exclusion clause to exclude liability for negligence under Singapore contract law and the Unfair Contract Terms Act?",
+      "goldenAnswer": "Under Singapore law applying Photo Production Ltd v. Securicor [1980] AC 827 and the Unfair Contract Terms Act (Cap 396), an exclusion clause must: (1) be incorporated into the contract by signature, notice, or course of dealing; (2) on true construction, cover the breach that occurred; and (3) satisfy the UCTA reasonableness test for B2C or certain B2B contracts. Courts construe exclusion clauses contra proferentem against the party relying on them.",
+      "category": "contract",
+      "jurisdiction": "Singapore",
+      "expected_topics": ["exclusion clause", "UCTA", "Photo Production", "reasonableness test", "contra proferentem"],
+      "difficulty": "medium",
+      "last_verified": "2026-05-25"
+    },
+    {
+      "id": "sg-005",
+      "question": "Under the Singapore Companies Act, what procedural requirements must be met before a minority shareholder can bring a statutory derivative action under Section 216A?",
+      "goldenAnswer": "Under Section 216A of the Singapore Companies Act, a complainant who is a member, director, or CEO may apply for leave to bring a derivative action. Requirements: (1) 14 days' written notice to the directors of the intention to apply; (2) the applicant is acting in good faith; (3) it appears prima facie in the interests of the company. Per Ang Thiam Swee v. Low Hian Chor [2013] 2 SLR 340, the court evaluates good faith by examining the complainant's honest belief and absence of collateral purpose.",
+      "category": "corporate",
+      "jurisdiction": "Singapore",
+      "expected_topics": ["Section 216A", "derivative action", "Companies Act", "14 days notice", "good faith"],
+      "difficulty": "medium",
+      "last_verified": "2026-05-25"
+    }
+  ]
+}

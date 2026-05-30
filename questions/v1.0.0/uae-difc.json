@@ -1,0 +1,61 @@
+{
+  "version": "1.0.0",
+  "jurisdiction": "UAE-DIFC",
+  "jurisdiction_code": "AE-DIFC",
+  "agent_focus": "vidhi.ae.pariksha.eth",
+  "description": "Dubai International Financial Centre commercial, employment, and corporate law. DIFC Courts jurisdiction including conduit-enforcement mechanism.",
+  "last_verified": "2026-05-25",
+  "question_count": 5,
+  "questions": [
+    {
+      "id": "difc-001",
+      "question": "Under the DIFC Contract Law, how does the court distinguish between frustration and force majeure, and what remedies apply to each?",
+      "goldenAnswer": "Under DIFC Contract Law (DIFC Law No. 6 of 2004), frustration under Article 82 operates automatically and discharges obligations from the frustrating event, with prior obligations surviving. Force majeure under Article 83 requires contractual provision and typically suspends (not discharges) obligations. Frustration requires impossibility or fundamentally changed circumstances; force majeure requires contractual invocation and notice. Upon frustration, restitution of benefits conferred is available; force majeure remedies are contractually defined.",
+      "category": "contract",
+      "jurisdiction": "UAE-DIFC",
+      "expected_topics": ["frustration", "force majeure", "DIFC Contract Law", "Article 82", "discharge"],
+      "difficulty": "hard",
+      "last_verified": "2026-05-25"
+    },
+    {
+      "id": "difc-002",
+      "question": "In DIFC Courts, how can non-DIFC parties establish jurisdiction for commercial disputes, and what is the conduit jurisdiction mechanism for UAE-wide enforcement?",
+      "goldenAnswer": "Non-DIFC parties can submit to DIFC Court jurisdiction via: (1) express jurisdiction clauses in their contracts; (2) accepting service of a claim form issued in the DIFC. The conduit jurisdiction mechanism — recognised in Fujairah National Group FZC v. Meydan Group LLC (DIFC CA, 2015) — allows a foreign award or judgment recognised in DIFC to be enforced across the UAE via the Judicial Authority Agreement between DIFC Courts and Dubai Courts, bypassing the Article V NYC grounds review at the execution stage.",
+      "category": "jurisdiction",
+      "jurisdiction": "UAE-DIFC",
+      "expected_topics": ["DIFC Courts", "conduit jurisdiction", "opt-in", "Judicial Authority Agreement", "non-DIFC parties"],
+      "difficulty": "hard",
+      "last_verified": "2026-05-25"
+    },
+    {
+      "id": "difc-003",
+      "question": "What are the grounds for setting aside an arbitral award under Article 41 of the DIFC Arbitration Law (DIFC Law No. 1 of 2008)?",
+      "goldenAnswer": "Under Article 41, an award may be set aside if the applicant proves: (i) incapacity of a party; (ii) invalidity of the arbitration agreement; (iii) lack of proper notice or inability to present the case; (iv) the award deals with matters beyond the submission to arbitration; (v) the arbitral tribunal or procedure was not in accordance with the agreement; or (vi) the award is in conflict with DIFC public policy. The latter ground is narrowly construed and applied only for fundamental violations of moral or legal order.",
+      "category": "arbitration",
+      "jurisdiction": "UAE-DIFC",
+      "expected_topics": ["Article 41", "DIFC Arbitration Law", "setting aside", "public policy", "grounds"],
+      "difficulty": "medium",
+      "last_verified": "2026-05-25"
+    },
+    {
+      "id": "difc-004",
+      "question": "Under the DIFC Employment Law 2019, how is end of service gratuity calculated for an employee who is terminated after 6 years of continuous service on a salary of AED 20,000/month?",
+      "goldenAnswer": "Under the DIFC Employment Law 2019 (as amended), gratuity is calculated at 21 calendar days' basic wage per year for the first 5 years, and 30 calendar days' basic wage per year for each subsequent year. For 6 years on AED 20,000 basic wage: Years 1-5 = (21/30) × 20,000 × 5 = AED 70,000. Year 6 = (30/30) × 20,000 × 1 = AED 20,000. Total = AED 90,000. Article 62 also permits parties to substitute an equivalent scheme (like a pension) with employee consent.",
+      "category": "employment",
+      "jurisdiction": "UAE-DIFC",
+      "expected_topics": ["Employment Law 2019", "gratuity", "end of service", "21 days", "Article 62"],
+      "difficulty": "medium",
+      "last_verified": "2026-05-25"
+    },
+    {
+      "id": "difc-005",
+      "question": "What are the disclosure obligations and liability exposure for a DIFC company director who has an undisclosed conflict of interest in a company transaction?",
+      "goldenAnswer": "Under Article 58 of the DIFC Companies Law (DIFC Law No. 5 of 2018), a director must disclose to the board any direct or indirect material interest in a proposed transaction before entry. Failure to disclose: (i) renders the transaction voidable at the company's election; (ii) exposes the director to account for any profit made; and (iii) may constitute a breach of fiduciary duty entitling the company to equitable compensation. Interested directors may not vote on resolutions concerning that transaction.",
+      "category": "corporate-governance",
+      "jurisdiction": "UAE-DIFC",
+      "expected_topics": ["Article 58", "DIFC Companies Law", "conflict of interest", "disclosure", "fiduciary duty"],
+      "difficulty": "hard",
+      "last_verified": "2026-05-25"
+    }
+  ]
+}
