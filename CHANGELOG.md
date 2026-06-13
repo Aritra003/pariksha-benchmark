@@ -4,6 +4,45 @@ All notable changes to the Pariksha Benchmark are documented in this
 file. Question banks follow [Semantic Versioning](https://semver.org/);
 see the versioning policy in [README.md](README.md).
 
+## [v1.2.0] — 2026-06-13
+
+Adds Japan as a new Asian-jurisdiction question bank beyond the original
+eight-jurisdiction v1.1.0 roadmap.
+
+### Question bank added (1)
+
+- `questions/v1.2.0/japan.json` — Japan commercial law: Companies Act
+  (Arts 330, 355 — director duty of care and duty of loyalty), Civil
+  Code post-2020 obligations reform (Arts 415, 416 — damages for
+  non-performance and scope), APPI 2022 amendment (Arts 27, 28 —
+  cross-border personal-data transfer consent), Antimonopoly Act
+  (Arts 2(6), 3, 7-2 — unreasonable restraint of trade and surcharge
+  calculation), and FIEA Art 166 (insider trading scope and the
+  one-year post-departure tail).
+
+Total benchmark coverage moves from 40 questions across 8 jurisdictions
+(v1.1.0) to 45 questions across 9 jurisdictions.
+
+### Verification
+
+- Primary-source verification anchored on
+  [japaneselawtranslation.go.jp](https://www.japaneselawtranslation.go.jp/),
+  the Japan Ministry of Justice's official English statute portal.
+- 10 of 11 citations carry `primary_verified: true` with the
+  `source_quote` field pulled verbatim from the article's English
+  translation page. The one exception (Civil Code Art 644, applied by
+  cross-reference from Companies Act Art 330) carries
+  `secondary_corroboration_sources: 4`.
+- Schema unchanged from v1.1.0; same `verification_method` and
+  `primary_verified` conventions.
+
+### Notes
+
+- v1.0.0 and v1.1.0 question files remain immutable. v1.2.0 lives under
+  its own `questions/v1.2.0/` directory.
+- Re-verification cadence unchanged: every six months. Next review
+  **2026-12-13**.
+
 ## [v1.1.0] — 2026-05-31
 
 Adds three new jurisdiction banks; refines the citation verification

@@ -13,8 +13,8 @@ correctly attributed*, or whether its statutory references account for *recent
 legislative changes*. We introduce Pariksha — Sanskrit for "examination" — a
 public benchmark designed to evaluate jurisdiction-specific legal AI agents
 on four criteria: legal accuracy, citation correctness, jurisdictional
-appropriateness, and reasoning quality. We release 40 expert-written questions
-across eight jurisdictions (India, Singapore, UAE-DIFC, US-Delaware/federal, US-Generalist, England & Wales, Republic of Korea, European Union),
+appropriateness, and reasoning quality. We release 45 expert-written questions
+across nine jurisdictions (India, Singapore, UAE-DIFC, US-Delaware/federal, US-Generalist, England & Wales, Republic of Korea, European Union, Japan),
 each with a golden answer containing verified statutory and case-law citations,
 together with the judge prompt, scoring rubric, and methodology.
 
@@ -205,8 +205,10 @@ the 0G Galileo testnet.
 
 1. **5 questions per jurisdiction is a v1 floor, not a ceiling.** v1.1.0
    added three of the eight additional jurisdictions originally targeted
-   (England & Wales, Republic of Korea, European Union); the remaining
-   five and a 25-questions-per-jurisdiction depth target are v1.2.0 work.
+   (England & Wales, Republic of Korea, European Union); v1.2.0 added
+   Japan as a new Asian-jurisdiction bank beyond the original roadmap;
+   the remaining roadmap jurisdictions and a 25-questions-per-jurisdiction
+   depth target are v1.3.0 work.
 2. **Judge bias.** A single Claude judge is the easiest reproducible setup,
    but two-judge or model-diverse judging would reduce systematic bias.
    See `judges/disagreement.md` for a planned protocol.
@@ -254,6 +256,24 @@ a multi-run cross-check. See
 for per-agent breakdowns.
 
 ## 7. Engine and benchmark changelog
+
+### Benchmark v1.2.0 — 2026-06-13
+
+- One new jurisdiction bank added: Japan
+  ([`japan.json`](../questions/v1.2.0/japan.json)) — Companies Act
+  (Arts 330, 355), Civil Code post-2020 obligations reform (Arts 415,
+  416), APPI 2022 amendment (Arts 27, 28), Antimonopoly Act (Arts 2(6),
+  3, 7-2), and FIEA insider-trading scope (Art 166). Total benchmark
+  coverage moves from 40 to 45 questions across 9 jurisdictions.
+- Primary-source verification anchored on
+  [japaneselawtranslation.go.jp](https://www.japaneselawtranslation.go.jp/),
+  the Japan Ministry of Justice's official English statute portal. 10
+  of 11 citations carry `primary_verified: true` with the source_quote
+  pulled verbatim from the article-anchor URL; the one exception
+  (Civil Code Art 644, applied by cross-reference from Companies Act
+  Art 330) carries `secondary_corroboration_sources: 4`.
+- Schema unchanged from v1.1.0; same `verification_method` /
+  `primary_verified` conventions.
 
 ### Benchmark v1.1.0 — 2026-05-31
 

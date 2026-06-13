@@ -1,0 +1,167 @@
+{
+  "version": "1.2.0",
+  "jurisdiction": "Japan",
+  "jurisdiction_code": "JP",
+  "agent_focus": "tokyo.jp.pariksha.eth",
+  "description": "Japanese commercial law — Companies Act (Kaisha-hō, Act No. 86 of 2005), Civil Code (Minpō, including the 2020 obligations amendment), Act on the Protection of Personal Information (APPI, including the 2022 amendment), Act on Prohibition of Private Monopolization and Maintenance of Fair Trade (AMA / Antimonopoly Act), and the Financial Instruments and Exchange Act (FIEA).",
+  "last_verified": "2026-06-13",
+  "verification_method": "Primary sources via japaneselawtranslation.go.jp (the Japan Ministry of Justice's official English translation portal). Each citation's source_quote is taken verbatim from the relevant article's English translation page; the source_url is the article-anchor URL on japaneselawtranslation.go.jp.",
+  "question_count": 5,
+  "questions": [
+    {
+      "id": "jp-001",
+      "question": "Under Japanese company law, what duties do directors owe to the stock company, and how are the duty of care and duty of loyalty grounded in the statutes?",
+      "goldenAnswer": "Under the Companies Act (Act No. 86 of 2005), a director of a stock company (kabushiki kaisha) owes two complementary duties to the company. (1) Duty of care of a good manager (zenkan chui gimu). Article 330 provides that the relationship between a Stock Company and its Officers or financial auditors is governed by the provisions on mandate (i.e., Civil Code Articles 643 et seq.). Civil Code Article 644 imposes on a mandatary the duty of administering the affairs of the mandate with the care of a good manager — the well-established 'zenkan chui gimu' or 'duty of care of a good manager.' For directors this is an objective standard, judged against what a reasonable director in the position would do, not against the individual director's actual skill. (2) Duty of loyalty (chū-jitsu gimu). Article 355 provides that directors must perform their duties for the Stock Company in a loyal manner in compliance with laws and regulations, the articles of incorporation, and resolutions at shareholders meetings. Although Japanese scholars have long debated whether the duty of loyalty under Article 355 adds substantive content beyond the Article 330 duty of care, the Supreme Court has treated them as overlapping obligations expressing the director's fiduciary posture toward the company. The two together ground the business judgment rule as applied in Japan: a director will not be liable for an honest, informed decision made in good faith and within the scope of the director's authority, even if it turns out poorly, provided the duty of care was not breached. Operational consequences: directors must inform themselves before acting (no rubber-stamping board minutes), must avoid conflict-of-interest transactions absent shareholder/board approval under Article 356, and must monitor the conduct of fellow directors and senior employees as part of the internal-controls obligation under Article 362.",
+      "category": "company",
+      "jurisdiction": "Japan",
+      "expected_topics": ["Companies Act", "Article 330", "Article 355", "duty of loyalty", "duty of care", "zenkan chui gimu", "business judgment"],
+      "difficulty": "hard",
+      "last_verified": "2026-06-13",
+      "verification": {
+        "citations": [
+          {
+            "cite": "Companies Act Article 330 (Act No. 86 of 2005)",
+            "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/3206/en#je_pt2ch4sc3sb1at2",
+            "source_quote": "The relationship between a Stock Company and its Officers or financial auditors is governed by the provisions on mandate.",
+            "secondary_source_url": "https://www.nishimura.com/en/knowledge/publications",
+            "primary_verified": true
+          },
+          {
+            "cite": "Companies Act Article 355 (Duty of Loyalty)",
+            "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/3206/en#je_pt2ch4sc4at8",
+            "source_quote": "Directors must perform their duties for the Stock Company in a loyal manner in compliance with laws and regulations, the articles of incorporation, and resolutions at shareholders meetings.",
+            "secondary_source_url": "https://www.nishimura.com/en/knowledge/publications",
+            "primary_verified": true
+          },
+          {
+            "cite": "Civil Code Article 644 (good-manager duty, applied via Companies Act Art 330)",
+            "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/3494/en",
+            "source_quote": "A mandatary bears a duty to administer the mandated business with the due care of a prudent manager, in compliance with the main purport of the mandate.",
+            "secondary_source_url": "https://www.mhmjapan.com/en/publications",
+            "primary_verified": false,
+            "secondary_corroboration_sources": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "jp-002",
+      "question": "Under the Japanese Civil Code as amended in April 2020, when may an obligee claim damages for non-performance of an obligation, and how is the scope of recoverable damages determined?",
+      "goldenAnswer": "Article 415 of the Civil Code, as amended by the 2017 obligations reform that took effect on 1 April 2020, sets the basic rule for damages on non-performance. Paragraph (1) provides that if an obligor fails to perform consistent with the purpose of the obligation or performance is impossible, the obligee may claim compensation for loss or damage arising from the failure; provided, however, that this does not apply if the failure is 'due to grounds not attributable to the obligor in light of the contract or other sources of obligation and the common sense in the transaction.' The 2020 amendment is significant: it shifted the exoneration standard from the pre-amendment formula (loosely, fault of the debtor) to an objective, contract-allocation-of-risk inquiry. Whether non-performance is 'attributable to the obligor' is now assessed against what the contract — read together with trade usage and good faith — allocated to whom, rather than against the obligor's subjective fault. Article 415(2) clarifies that the obligee may, in the cases set out (impossibility, clear refusal, or terminated contract), claim damages 'in lieu of performance.' Article 416 governs scope. Paragraph (1) limits recovery to the loss or damage that would ordinarily arise from the failure to perform — the well-known 'ordinary damages' floor. Paragraph (2) extends recovery to special-circumstances damages only where the parties foresaw or should have foreseen those circumstances at the relevant time. The foreseeability test under Article 416(2) is functionally analogous to the rule in Hadley v Baxendale but is judged against the parties' actual or constructive knowledge at the time of contracting (or, for non-contract obligations, at the time the obligation arose). Practical consequences: (a) force-majeure-style defences are now articulated through contract-allocation language rather than fault language; (b) damages drafting clauses (including caps and liquidated-damages provisions) are read against the new Article 415(1) backbone; (c) pre-2020 case law on 'fault' must be re-read carefully — the Supreme Court has applied the new framework in several post-amendment decisions emphasising the contract-allocation lens.",
+      "category": "contract",
+      "jurisdiction": "Japan",
+      "expected_topics": ["Civil Code", "Article 415", "Article 416", "2020 amendment", "non-performance", "foreseeability", "ordinary damages"],
+      "difficulty": "hard",
+      "last_verified": "2026-06-13",
+      "verification": {
+        "citations": [
+          {
+            "cite": "Civil Code Article 415(1) (post-2020 amendment)",
+            "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/3494/en",
+            "source_quote": "If an obligor fails to perform consistent with the purpose of the obligation or the performance of an obligation is impossible, the obligee may claim compensation for loss or damage arising from the failure; provided, however, that this does not apply if the failure to perform the obligation is due to grounds not attributable to the obligor in light of the contract or other sources of obligation and the common sense in the transaction.",
+            "secondary_source_url": "https://www.mhmjapan.com/en/publications",
+            "primary_verified": true
+          },
+          {
+            "cite": "Civil Code Article 416(1) (scope — ordinary damages)",
+            "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/3494/en",
+            "source_quote": "The purpose of the claim for compensation for the loss or damage for failure to perform an obligation is to have the obligor to pay the compensation for loss or damage which would ordinarily arise from the failure.",
+            "secondary_source_url": "https://www.amt-law.com/en/publications",
+            "primary_verified": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "jp-003",
+      "question": "Under Japan's Act on the Protection of Personal Information (APPI) as amended in April 2022, what consent is required when a business handling personal information transfers personal data to a third party located in a foreign country?",
+      "goldenAnswer": "The APPI distinguishes between general third-party transfers (Article 27) and cross-border third-party transfers (Article 28). Article 27(1) sets the baseline rule: a business handling personal information must not provide personal data to a third party without obtaining the identifiable person's consent in advance, subject to listed exceptions (legal obligation, life/body/property protection, public health, cooperation with government, etc.). Article 28(1), which took its current form under the 2022 amendment effective 1 April 2022, layers an additional consent requirement on cross-border transfers. Before providing personal data to a third party in a 'foreign country' — meaning a country or region located outside the territory of Japan — the business must obtain the data subject's consent to provision to a third party in a foreign country. The general Article 27 exceptions do not relieve the business of this Article 28 obligation; the cross-border consent is independent. There are two carve-outs from the Article 28 cross-border consent requirement: (i) the recipient is in a foreign country that the Personal Information Protection Commission (PPC) has designated as having a personal-information-protection system recognised to have equivalent standards to Japan's (the EU and the UK are currently designated); and (ii) the recipient has established a system that conforms to PPC-prescribed standards for continuously taking measures equivalent to those required of Japan-based businesses ('equivalent measures' — typically implemented via binding intra-group rules or standard contractual clauses). Where consent is the lawful basis, Article 28(2) requires that the business provide the data subject in advance with information on the personal-information-protection system of the foreign country, on the measures the recipient takes for the protection of personal information, and other information that serves as a reference to the data subject — i.e., the consent must be informed. Article 28(3) imposes ongoing diligence on transfers under the 'equivalent measures' route: the business must take necessary measures to ensure the recipient's continuing implementation of those measures and must provide information about those measures to the data subject on request. Operational consequence: a Japan-based controller transferring personal data to a US group company outside an adequacy regime typically relies on either (a) Article 28 consent with the disclosures in Article 28(2), or (b) an 'equivalent measures' system, which in practice is documented through PPC-compliant intra-group agreements or contractual clauses.",
+      "category": "privacy",
+      "jurisdiction": "Japan",
+      "expected_topics": ["APPI", "Article 27", "Article 28", "cross-border transfer", "2022 amendment", "PPC", "equivalent measures"],
+      "difficulty": "hard",
+      "last_verified": "2026-06-13",
+      "verification": {
+        "citations": [
+          {
+            "cite": "APPI Article 27(1) (general consent for third-party transfers)",
+            "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4241/en#je_ch4sc2at11",
+            "source_quote": "Businesses handling personal information must not provide personal data to a third party without obtaining the identifiable person's consent in advance, except cases set forth below:",
+            "secondary_source_url": "https://www.ppc.go.jp/en/legal/",
+            "primary_verified": true
+          },
+          {
+            "cite": "APPI Article 28(1) (cross-border consent requirement)",
+            "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4241/en#je_ch4sc2at12",
+            "source_quote": "Except cases set forth in the items of paragraph (1) of the preceding Article, before businesses handling personal information provide personal data to a third party... in a foreign country (meaning a country or region located outside the territory of Japan)... the businesses must obtain an identifiable person's consent to the effect that the person approves the provision to a third party in a foreign country.",
+            "secondary_source_url": "https://www.ppc.go.jp/en/legal/",
+            "primary_verified": true
+          },
+          {
+            "cite": "APPI Article 28(2) (information-provision requirement before consent)",
+            "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4241/en#je_ch4sc2at12",
+            "source_quote": "Before intending to obtain the identifiable person's consent pursuant to the provisions of the preceding paragraph, businesses handling personal information must provide that person with information on the personal information protection system of the foreign country, on the measures the third party takes for the protection of personal information, and other information that is to serve as a reference to that person, pursuant to Order of the Personal Information Protection Commission.",
+            "secondary_source_url": "https://www.ppc.go.jp/en/legal/",
+            "primary_verified": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "jp-004",
+      "question": "Under the Japanese Antimonopoly Act, what is the definition of an 'unreasonable restraint of trade,' what is the prohibition, and how are administrative surcharges for a cartel calculated under Article 7-2(1)?",
+      "goldenAnswer": "The Act on Prohibition of Private Monopolization and Maintenance of Fair Trade (Act No. 54 of 1947, commonly the 'Antimonopoly Act' or 'AMA') is administered by the Japan Fair Trade Commission (JFTC). The cartel framework runs from definition (Article 2(6)), prohibition (Article 3), to surcharge (Article 7-2). Article 2(6) defines an 'unreasonable restraint of trade' as 'such business activities, by which any entrepreneur, by contract, agreement or any other means irrespective of its name, in concert with other entrepreneurs, mutually restrict or conduct their business activities in such a manner as to fix, maintain, or increase prices, or to limit production, technology, products, facilities, or counterparties, thereby causing, contrary to the public interest, a substantial restraint of competition in any particular field of trade.' Two elements are doing the load-bearing work: 'concerted action' (the multi-firm requirement, distinguishing AMA cartel cases from unilateral conduct) and 'substantial restraint of competition in any particular field of trade' (the effects element, which requires market-definition analysis). Article 3 then provides the operative prohibition: 'No entrepreneur shall effect private monopolization or unreasonable restraint of trade.' Surcharge calculation is in Article 7-2(1). For a standard hardcore cartel, the JFTC orders payment to the national treasury of an amount equal to (i) the sales of the relevant goods or services during the 'period of implementation' (the time during which the entrepreneur was engaged in the prohibited conduct, capped at three years counted back from the date the conduct ceased), multiplied by (ii) a base rate of ten percent — reduced to three percent for retailers and two percent for wholesalers. A floor applies: if the calculated surcharge is less than one million yen, no surcharge is ordered. Article 7-2 also provides aggravating multipliers (paragraph (6) raises the rates by fifty percent — to 15%/4.5%/3% — for repeat offenders and ringleaders) and a separate framework for purchaser-side cartels (where the formula uses the purchase amount rather than sales). The JFTC's leniency programme under Article 7-4 et seq. layers reductions onto the Article 7-2 base figure for self-reporting firms, with the first applicant typically receiving full immunity. A 2019 amendment, effective 25 December 2020, introduced a cooperation discount of up to 40% based on the value of cooperation provided to the JFTC investigation, on top of the leniency-rank percentages.",
+      "category": "competition",
+      "jurisdiction": "Japan",
+      "expected_topics": ["Antimonopoly Act", "Article 2(6)", "Article 3", "Article 7-2", "unreasonable restraint of trade", "JFTC", "surcharge"],
+      "difficulty": "hard",
+      "last_verified": "2026-06-13",
+      "verification": {
+        "citations": [
+          {
+            "cite": "Antimonopoly Act Article 2(6) (definition of unreasonable restraint of trade)",
+            "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/1929/en",
+            "source_quote": "The term \"unreasonable restraint of trade\" as used in this Act means such business activities, by which any entrepreneur, by contract, agreement or any other means irrespective of its name, in concert with other entrepreneurs, mutually restrict or conduct their business activities in such a manner as to fix, maintain, or increase prices, or to limit production, technology, products, facilities, or counterparties, thereby causing, contrary to the public interest, a substantial restraint of competition in any particular field of trade.",
+            "secondary_source_url": "https://www.jftc.go.jp/en/legislation_gls/",
+            "primary_verified": true
+          },
+          {
+            "cite": "Antimonopoly Act Article 3 (prohibition)",
+            "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/1929/en",
+            "source_quote": "No entrepreneur shall effect private monopolization or unreasonable restraint of trade.",
+            "secondary_source_url": "https://www.jftc.go.jp/en/legislation_gls/",
+            "primary_verified": true
+          },
+          {
+            "cite": "Antimonopoly Act Article 7-2(1) (surcharge calculation)",
+            "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/1929/en",
+            "source_quote": "In case any entrepreneur effects an unreasonable restraint of trade... the Fair Trade Commission shall order the said entrepreneur... to pay to the national treasury a surcharge of an amount equivalent to an amount calculated by multiplying the sales amount of the relevant goods or services... for the period from the date on which the entrepreneur effected the business activities constituting the said act to the date on which the business activities constituting the said act were discontinued (in case such period exceeds three years, the period shall be the three years preceding the date on which the business activities... were discontinued)... by ten percent (three percent in case of retail business, or two percent in case of wholesale business); provided, however, that in case the amount thus calculated is less than one million yen, the Commission shall not order the payment of such a surcharge.",
+            "secondary_source_url": "https://www.jftc.go.jp/en/legislation_gls/",
+            "primary_verified": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "jp-005",
+      "question": "Under Article 166 of Japan's Financial Instruments and Exchange Act (FIEA), who counts as a 'Company Insider,' what conduct does the article prohibit, and for how long after a person ceases to be a Company Insider does the prohibition continue?",
+      "goldenAnswer": "Article 166 of the Financial Instruments and Exchange Act (FIEA, Act No. 25 of 1948) is the primary insider-trading prohibition for Listed Company information; the parallel Article 167 covers tender-offer information. Article 166(1) defines the prohibited conduct and the class of persons covered. A 'Company Insider' is a person falling within the categories enumerated in items (i) through (v) of Article 166(1): (i) officers, employees, and agents of the Listed Company itself who learn the material fact in the course of their duties; (ii) shareholders or members entitled to inspect books, etc., who learn the material fact in the course of exercising those rights; (iii) persons with statutory authority over the Listed Company who learn the material fact through that authority; (iv) parties to a contract with the Listed Company (or who are negotiating one) who learn the material fact through that contractual relationship; and (v) employees and agents of the persons in (ii)–(iv) who learn the material fact in the course of their duties. A parallel rule extends the Company Insider concept to insiders of a Subsidiary Company in respect of subsidiary-level material facts that fall within items (v) through (viii) of Article 166(2). The prohibition is on effecting a 'Purchase and Sale, etc.' of the Listed Company's Specified Securities (including derivatives connected to them) before the material fact is disclosed. 'Material fact' is exhaustively listed in Article 166(2) and includes share issuances, business combinations, dividends, large losses, changes in business operations, and a catch-all for facts that would have a significant influence on investors' decisions if the Listed Company were aware. Crucially, Article 166(1) extends the prohibition for one year after the person ceases to be a Company Insider: a person who learned the material fact as a Company Insider remains subject to the prohibition for 12 months after leaving the role, in respect of that fact, until it is disclosed. The Article 166 framework operates as a flat per-se prohibition coupled with the enumerated 'material fact' list — Japanese insider-trading enforcement does not rely on the US-style 'misappropriation theory' or general fiduciary breach analysis; what matters is whether the person fits an enumerated Company Insider category and whether the information fits an enumerated material-fact category. Sanctions include criminal liability under FIEA Article 197-2 (up to 5 years' imprisonment / ¥5 million fine for individuals) and administrative surcharges under Article 175 calculated on the avoided loss or gained profit.",
+      "category": "securities",
+      "jurisdiction": "Japan",
+      "expected_topics": ["FIEA", "Article 166", "insider trading", "Company Insider", "material fact", "Listed Company", "one-year tail"],
+      "difficulty": "hard",
+      "last_verified": "2026-06-13",
+      "verification": {
+        "citations": [
+          {
+            "cite": "FIEA Article 166(1) (Company Insider definition and prohibition)",
+            "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/2355/en",
+            "source_quote": "A person set forth in one of the following items (hereinafter referred to as a \"Company Insider\" in this Article) that comes to know a material fact about the business of a Listed Company, etc... in the manner prescribed in the relevant item must not effect a purchase and sale, or any other transfer or acquisition for value, of Specified Securities, etc. of the Listed Company, etc., nor effect a Derivatives Transaction connected with the same (hereinafter referred to as a \"Purchase and Sale, etc.\" in this Article) before the disclosure of the material fact about its business. The same applies for one year to a Company Insider that comes to know a material fact about the business of a Listed Company, etc. in a manner prescribed in one of the following items even after the person ceases to be the Company Insider as set forth in the relevant item:",
+            "secondary_source_url": "https://www.fsa.go.jp/en/policy/",
+            "primary_verified": true
+          }
+        ]
+      }
+    }
+  ]
+}

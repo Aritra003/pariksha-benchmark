@@ -1,7 +1,7 @@
 # Pariksha Benchmark
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-[![Release](https://img.shields.io/badge/release-v1.1.0-green.svg)](CHANGELOG.md)
+[![Release](https://img.shields.io/badge/release-v1.2.0-green.svg)](CHANGELOG.md)
 
 An open benchmark for jurisdiction-aware legal AI agents.
 
@@ -11,10 +11,10 @@ Pariksha (Sanskrit: "examination") is a public benchmark for evaluating
 legal AI agents on **jurisdictional accuracy**, **citation correctness**,
 and **statutory grounding** — not on generic reasoning ability.
 
-As of v1.1.0, Pariksha ships **8 question banks** (5 from v1.0.0, 3 added
-in v1.1.0), each with 5 expert-written questions, golden answers carrying
-real statutory and case-law citations, expected-topic lists, and
-difficulty tiers:
+As of v1.2.0, Pariksha ships **9 question banks** (5 from v1.0.0, 3 from
+v1.1.0, 1 added in v1.2.0), each with 5 expert-written questions, golden
+answers carrying real statutory and case-law citations, expected-topic
+lists, and difficulty tiers:
 
 | Bank | Jurisdiction | Focus |
 |---|---|---|
@@ -26,6 +26,7 @@ difficulty tiers:
 | [`england-wales.json`](questions/v1.1.0/england-wales.json) | England & Wales | Arbitration Act 1996, UCTA 1977, CA 2006, SoGA 1979, CPR Part 36 |
 | [`korea.json`](questions/v1.1.0/korea.json) | Republic of Korea | Commercial Act, Civil Act tort, FIPA, persuasive-precedent doctrine |
 | [`eu.json`](questions/v1.1.0/eu.json) | European Union | GDPR, DSA, DMA |
+| [`japan.json`](questions/v1.2.0/japan.json) | Japan | Companies Act, Civil Code (2020 amendment), APPI (2022), Antimonopoly Act, FIEA |
 
 Each question is paired with a verified golden answer. Every citation in
 every golden answer must clear the **citation verification gate** before
@@ -110,7 +111,7 @@ The JSON schema is enforced by
 
 High level (the methodology paper has the canonical procedure):
 
-1. Pick a question bank from `questions/v1.0.0/` or `questions/v1.1.0/`.
+1. Pick a question bank from `questions/v1.0.0/`, `questions/v1.1.0/`, or `questions/v1.2.0/`.
 2. For each question, prompt your agent with the `question` field and
    any system prompt or skill manifest that defines the agent's
    jurisdictional focus.
@@ -169,8 +170,15 @@ question banks — primary-source verified against EUR-Lex,
 legislation.gov.uk, Springer Nature, and the US Federal Judicial Center
 where reachable, with authoritative secondary corroboration where
 primary fetches were blocked by WAF. Development findings are published
-in [`docs/archive/`](docs/archive/). See
-[CHANGELOG.md](CHANGELOG.md#v110--2026-05-31) for the full release notes.
+in [`docs/archive/`](docs/archive/).
+
+**v1.2.0** (2026-06-13) added Japan as a new Asian-jurisdiction bank
+beyond the original eight-jurisdiction v1.1.0 roadmap — primary-source
+verified against japaneselawtranslation.go.jp, the Japan Ministry of
+Justice's official English statute portal, covering the Companies Act,
+Civil Code (post-2020 obligations reform), APPI (2022 cross-border
+amendment), Antimonopoly Act, and FIEA. See
+[CHANGELOG.md](CHANGELOG.md) for the full release notes.
 
 ## What this is NOT
 
